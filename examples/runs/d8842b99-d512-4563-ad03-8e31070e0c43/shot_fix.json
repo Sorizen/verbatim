@@ -1,0 +1,12 @@
+{
+  "shot_id": "s1",
+  "duration_s": 6,
+  "delivery": "Jack Calloway, alone in frame, speaks every word slowly and clearly with a smug, lilting drawl. He pauses briefly after the first phrase and ends on a rising sing-song. Volume is a little louder than before, and his lips stay visible and in sync the whole time.",
+  "ambient_level": "normal",
+  "camera": {
+    "size": "medium",
+    "movement": "push-in",
+    "angle": "eye-level"
+  },
+  "reason": "wrong_speaker"
+}

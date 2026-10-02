@@ -1,0 +1,113 @@
+{
+  "format": {
+    "aspect": "9:16",
+    "resolution": "480p",
+    "duration_s": 14
+  },
+  "style": "Photoreal British drama, warm tungsten lamplight against cool blue dusk from the windows, muted amber and green palette, soft shallow depth of field, fine 35mm film grain",
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Clara Whitmore",
+      "look": "Woman aged 24, slim build, oval face with soft cheekbones, fair skin with a light flush across the nose and cheeks, large hazel eyes, thin dark eyebrows, shoulder-length wavy chestnut-brown hair tucked behind one ear with a few loose strands, small silver stud earrings, no heavy makeup",
+      "wardrobe": "Navy wool peacoat with dark buttons over a cream knit jumper, a loosely wrapped mustard-yellow scarf, small damp patches on the shoulders from evening drizzle, a worn brown leather satchel strap across her chest, holding a faded cream envelope",
+      "voice": "young female voice, light and clear, soft southern English accent, quick and slightly breathy at first, then slowing and steadying",
+      "portrait": "refs/c1-1.jpg"
+    },
+    {
+      "id": "c2",
+      "name": "Arthur Penhale",
+      "look": "Man aged 74, tall but slightly stooped, lean frame, long lined face with deep creases around the eyes and mouth, pale weathered skin with age spots on the temples, bushy white eyebrows, pale blue watery eyes, thinning silver-white hair combed back, neatly trimmed white moustache, prominent nose with the marks of long-worn glasses on the bridge",
+      "wardrobe": "Round tortoiseshell-framed reading glasses, a faded green wool cardigan with leather elbow patches over a pale blue checked shirt, a dark knitted tie loosened slightly, brown corduroy trousers, a brass shop key in his hand",
+      "voice": "elderly male voice, low, gravelly and gentle, refined older English accent, slow and measured with a slight tremor (he stays silent in this scene)",
+      "portrait": "refs/c2-1.jpg"
+    }
+  ],
+  "setting": {
+    "place": "A quiet independent bookshop at closing time, cluttered wooden shelves, a worn oak checkout counter near the glass front door, light drizzle outside",
+    "time_of_day": "evening",
+    "light": "Warm amber tungsten from a brass counter lamp and shelf lights, cool blue evening glow through the rain-speckled shop window",
+    "ambient_sound": "Faint rain on the window, the soft tick of an old wall clock, a distant muffled street hum, all kept very low",
+    "ambient_level": "normal"
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "duration_s": 3,
+      "camera": {
+        "size": "medium",
+        "movement": "push-in",
+        "angle": "eye-level"
+      },
+      "action": "From inside the shop, c2 freezes with the brass key half turned in the door lock and looks up. On the other side of the glass, c1 presses her palm against the pane, breathing quickly, her eyes flicking down to the faded cream envelope in her other hand.",
+      "dialogue": null,
+      "sfx": [
+        "soft metallic click of the key",
+        "palm tapping glass",
+        "light rain"
+      ]
+    },
+    {
+      "id": "s2",
+      "duration_s": 6,
+      "camera": {
+        "size": "close-up",
+        "movement": "static",
+        "angle": "over-shoulder"
+      },
+      "action": "c1 stands at the counter and slides the faded envelope across the wood toward c2, whose hand pulls back warily. She keeps two fingers resting on the envelope to hold it in place, her lips clearly visible as she speaks, her expression moving from nervous to steady.",
+      "dialogue": {
+        "speaker": "c1",
+        "text": "My grandmother asked me to give you this. She said you would understand.",
+        "delivery": "Slow and soft, slightly breathy and nervous at first, then steadier and warmer on the second sentence, with a gentle pause between the two sentences so every word is clear"
+      },
+      "sfx": [
+        "paper sliding across wood",
+        "faint rustle of her coat"
+      ]
+    },
+    {
+      "id": "s3",
+      "duration_s": 2,
+      "camera": {
+        "size": "close-up",
+        "movement": "push-in",
+        "angle": "eye-level"
+      },
+      "action": "c2 unfolds the brittle page with trembling fingers, his other hand gripping the edge of the counter. His eyes move along the first line of the letter.",
+      "dialogue": null,
+      "sfx": [
+        "delicate paper unfolding",
+        "slow, unsteady breath"
+      ]
+    },
+    {
+      "id": "s4",
+      "duration_s": 3,
+      "camera": {
+        "size": "close-up",
+        "movement": "static",
+        "angle": "eye-level"
+      },
+      "action": "c2 slowly lifts his tortoiseshell glasses from his face and lowers them, his eyes glistening. His gaze rises and lingers on c1, as if he sees someone long lost in her face, while c1 watches him quietly.",
+      "dialogue": null,
+      "sfx": [
+        "soft click of glasses folding",
+        "a quiet exhale",
+        "the wall clock ticking"
+      ]
+    }
+  ],
+  "negative": [
+    "subtitles",
+    "on-screen text",
+    "captions",
+    "extra speaking characters",
+    "other customers or bystanders",
+    "c2 speaking",
+    "readable writing on the letter",
+    "modern gadgets or phone screens",
+    "distorted hands or faces",
+    "fast or jerky motion"
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "attempt": 3,
+  "format": {
+    "aspect_ok": true,
+    "duration_s": 16.02,
+    "duration_ok": true,
+    "has_audio": true
+  },
+  "asr_model": "openai/whisper-large-v3",
+  "lines": [
+    {
+      "shot_id": "s1",
+      "speaker": "c1",
+      "expected": "Nice hat, big man. Did your mother pick it out?",
+      "heard": "drum roll nice hat big man did your mother pick it out thank you",
+      "wer": 0.4,
+      "diff": [
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "drum"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "roll"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "thank"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "you"
+        }
+      ],
+      "alignment": [
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "drum"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "roll"
+        },
+        {
+          "op": null,
+          "expected": "nice",
+          "heard": "nice"
+        },
+        {
+          "op": null,
+          "expected": "hat",
+          "heard": "hat"
+        },
+        {
+          "op": null,
+          "expected": "big",
+          "heard": "big"
+        },
+        {
+          "op": null,
+          "expected": "man",
+          "heard": "man"
+        },
+        {
+          "op": null,
+          "expected": "did",
+          "heard": "did"
+        },
+        {
+          "op": null,
+          "expected": "your",
+          "heard": "your"
+        },
+        {
+          "op": null,
+          "expected": "mother",
+          "heard": "mother"
+        },
+        {
+          "op": null,
+          "expected": "pick",
+          "heard": "pick"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "out",
+          "heard": "out"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "thank"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "you"
+        }
+      ],
+      "start_s": 0.0,
+      "end_s": 6.5799999833106995,
+      "speaker_matches": true
+    },
+    {
+      "shot_id": "s2",
+      "speaker": "c2",
+      "expected": "My mother stitched it. Right before she died.",
+      "heard": "my mother stitched it right before she died",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "my",
+          "heard": "my"
+        },
+        {
+          "op": null,
+          "expected": "mother",
+          "heard": "mother"
+        },
+        {
+          "op": null,
+          "expected": "stitched",
+          "heard": "stitched"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "right",
+          "heard": "right"
+        },
+        {
+          "op": null,
+          "expected": "before",
+          "heard": "before"
+        },
+        {
+          "op": null,
+          "expected": "she",
+          "heard": "she"
+        },
+        {
+          "op": null,
+          "expected": "died",
+          "heard": "died"
+        }
+      ],
+      "start_s": 7.26,
+      "end_s": 10.329999949932098,
+      "speaker_matches": true
+    },
+    {
+      "shot_id": "s3",
+      "speaker": "c1",
+      "expected": "Easy, friend. It was only a joke.",
+      "heard": "easy friend it was only a joke",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "easy",
+          "heard": "easy"
+        },
+        {
+          "op": null,
+          "expected": "friend",
+          "heard": "friend"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "was",
+          "heard": "was"
+        },
+        {
+          "op": null,
+          "expected": "only",
+          "heard": "only"
+        },
+        {
+          "op": null,
+          "expected": "a",
+          "heard": "a"
+        },
+        {
+          "op": null,
+          "expected": "joke",
+          "heard": "joke"
+        }
+      ],
+      "start_s": 11.370000030994415,
+      "end_s": 13.5100000166893,
+      "speaker_matches": true
+    }
+  ],
+  "judgment": {
+    "physics_integrity": 7,
+    "temporal_continuity": 7,
+    "reaction_plausibility": 7,
+    "character_presence_consistency": 10,
+    "on_screen_text": false,
+    "artifacts": [
+      "hands"
+    ],
+    "speakers": [
+      {
+        "shot_id": "s1",
+        "visibility": "on_screen"
+      },
+      {
+        "shot_id": "s2",
+        "visibility": "on_screen"
+      },
+      {
+        "shot_id": "s3",
+        "visibility": "on_screen"
+      }
+    ],
+    "analysis": "The video aligns well with the prompt across all shots. Facial expressions, staging, and vocal lip-syncing match each character's lines. Characters maintain visual consistency with reference portraits. Minor anatomical irregularities appear around the hand placement in shot s2."
+  },
+  "verdict": "needs_review",
+  "reasons": [
+    "s1: heard \"drum roll nice hat big man did your mother pick it out thank you\" instead of \"Nice hat, big man. Did your mother pick it out?\""
+  ],
+  "mismatched_words": 4
+}

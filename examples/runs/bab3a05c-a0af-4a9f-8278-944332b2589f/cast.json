@@ -1,0 +1,18 @@
+{
+  "characters": [
+    {
+      "id": "c1",
+      "look": "Man aged 71, tall and lean with a slight stoop, deeply lined weathered face, sunken cheeks, sharp pale grey eyes under heavy white eyebrows, short silver hair receding at the temples, trimmed white stubble, age spots on the forehead, thin veined hands stained green at the fingertips.",
+      "wardrobe": "Worn charcoal-grey high-collar station jumpsuit with faded soil stains at the chest, a frayed olive utility apron with small pockets holding pruning tools, a cracked brass-rimmed magnifying monocle hanging from a cord around the neck, a thin silver wristband.",
+      "voice": "deep, gravelly elderly male voice, slow and measured, slightly raspy, faint Eastern European accent, commanding with a tremor under urgency",
+      "portrait_prompt": "Photoreal vertical 9:16 head-and-shoulders portrait of one man aged 71, lean face with deep lines, sunken cheeks, pale grey eyes under heavy white eyebrows, short receding silver hair, trimmed white stubble, age spots on forehead, face fully visible and turned three quarters to camera with a stern, weary expression. He wears a worn charcoal-grey high-collar space station jumpsuit with faded soil stains, a frayed olive utility apron with small pockets of pruning tools, and a cracked brass-rimmed monocle hanging from a cord at his neck. Even soft light, plain neutral grey background, no text, no logos, no frames, no other people."
+    },
+    {
+      "id": "c2",
+      "look": "Woman aged 24, slim and slightly built, narrow shoulders, oval face with warm brown skin, wide dark brown anxious eyes, defined arched eyebrows, a small scar through the left eyebrow, chin-length black wavy hair tucked behind one ear with loose strands falling on her face, slightly chapped lips.",
+      "wardrobe": "Crisp new navy-blue station crew jumpsuit with a bright unscuffed orange shoulder patch and zip collar, a white fabric ID lanyard with a blank-looking badge clipped at the chest, thin black fingerless work gloves.",
+      "voice": "light, young female voice, quick and breathy, slightly shaky and higher in pitch when nervous, soft London accent",
+      "portrait_prompt": "Photoreal vertical 9:16 head-and-shoulders portrait of one woman aged 24, oval face with warm brown skin, wide dark brown anxious eyes, arched eyebrows, a small scar through the left eyebrow, chin-length black wavy hair tucked behind one ear with loose strands, face fully visible and turned to the camera with a nervous, wary expression. She wears a crisp new navy-blue space station crew jumpsuit with an orange shoulder patch and zip collar, a white ID lanyard with badge at the chest, and thin black fingerless work gloves. Even soft light, plain neutral grey background, no text, no logos, no frames, no other people."
+    }
+  ]
+}

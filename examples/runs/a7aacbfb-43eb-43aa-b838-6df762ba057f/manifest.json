@@ -1,0 +1,16 @@
+{
+  "run_id": "a7aacbfb-43eb-43aa-b838-6df762ba057f",
+  "idea": "On a night train, a conductor checks the ticket of a nervous young man: \"This ticket is for yesterday's train.\" The young man slowly looks out the window.",
+  "status": "done",
+  "final_path": "final.mp4",
+  "best_attempt": 1,
+  "models": {
+    "llm": "anthropic/claude-sonnet-5.5",
+    "images": "google/gemini-3.1-flash-image",
+    "video": "alibaba/wan-3.0",
+    "speech": "openai/whisper-large-v3",
+    "judge": "google/gemini-3.8-flash"
+  },
+  "cost_usd": 0.8258,
+  "review_reason": null
+}

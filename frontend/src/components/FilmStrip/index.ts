@@ -1,0 +1,1 @@
+export { FilmStrip } from './FilmStrip'

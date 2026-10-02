@@ -1,0 +1,160 @@
+{
+  "attempt": 2,
+  "format": {
+    "aspect_ok": true,
+    "duration_s": 14.03,
+    "duration_ok": true,
+    "has_audio": true
+  },
+  "asr_model": "openai/whisper-large-v3",
+  "lines": [
+    {
+      "shot_id": "s1",
+      "speaker": "c1",
+      "expected": "Don't touch it. It's the last living thing from Earth.",
+      "heard": "don't touch it it's the last living thing from earth",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "don't",
+          "heard": "don't"
+        },
+        {
+          "op": null,
+          "expected": "touch",
+          "heard": "touch"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "it's",
+          "heard": "it's"
+        },
+        {
+          "op": null,
+          "expected": "the",
+          "heard": "the"
+        },
+        {
+          "op": null,
+          "expected": "last",
+          "heard": "last"
+        },
+        {
+          "op": null,
+          "expected": "living",
+          "heard": "living"
+        },
+        {
+          "op": null,
+          "expected": "thing",
+          "heard": "thing"
+        },
+        {
+          "op": null,
+          "expected": "from",
+          "heard": "from"
+        },
+        {
+          "op": null,
+          "expected": "earth",
+          "heard": "earth"
+        }
+      ],
+      "start_s": 1.0199997425079346,
+      "end_s": 5.460000038146973,
+      "speaker_matches": true,
+      "speaker_visibility": "on_screen"
+    },
+    {
+      "shot_id": "s2",
+      "speaker": "c2",
+      "expected": "Then why does it feel like it's calling me?",
+      "heard": "then why does it feel like it's calling me",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "then",
+          "heard": "then"
+        },
+        {
+          "op": null,
+          "expected": "why",
+          "heard": "why"
+        },
+        {
+          "op": null,
+          "expected": "does",
+          "heard": "does"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "feel",
+          "heard": "feel"
+        },
+        {
+          "op": null,
+          "expected": "like",
+          "heard": "like"
+        },
+        {
+          "op": null,
+          "expected": "it's",
+          "heard": "it's"
+        },
+        {
+          "op": null,
+          "expected": "calling",
+          "heard": "calling"
+        },
+        {
+          "op": null,
+          "expected": "me",
+          "heard": "me"
+        }
+      ],
+      "start_s": 6.99,
+      "end_s": 8.869999995231629,
+      "speaker_matches": true,
+      "speaker_visibility": "on_screen"
+    }
+  ],
+  "judgment": {
+    "physics_integrity": 7,
+    "temporal_continuity": 7,
+    "reaction_plausibility": 7,
+    "character_presence_consistency": 10,
+    "on_screen_text": false,
+    "artifacts": [
+      "hands"
+    ],
+    "speakers": [
+      {
+        "shot_id": "s1",
+        "visibility": "on_screen"
+      },
+      {
+        "shot_id": "s2",
+        "visibility": "on_screen"
+      }
+    ],
+    "analysis": "Both characters match the scene descriptions accurately. In shot s1, c1 enters frame and gestures with synchronized lip movement to deliver his warning, displaying minor hand morphing. In shot s2, c2 pulls her hand back and speaks directly on screen with consistent lip sync and emotional expression."
+  },
+  "verdict": "pass",
+  "reasons": [],
+  "mismatched_words": 0,
+  "ignored_speech": []
+}

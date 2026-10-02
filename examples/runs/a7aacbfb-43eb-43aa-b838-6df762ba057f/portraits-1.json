@@ -1,0 +1,53 @@
+{
+  "round": 1,
+  "checks": [
+    {
+      "character_id": "c1",
+      "attempt": 1,
+      "portrait_path": "refs/c1-1.jpg",
+      "review": {
+        "scores": {
+          "description_match": 3,
+          "single_subject": 4,
+          "adult": 4,
+          "clean_frame": 4,
+          "face_integrity": 4,
+          "reference_quality": 4
+        },
+        "explanations": {
+          "description_match": "Closely matches the uniform and facial features, though lower accessories are cropped out.",
+          "single_subject": "Exactly one person is visible in the frame.",
+          "adult": "Subject is clearly an older adult.",
+          "clean_frame": "Clean composition free of text, borders, or artifacts.",
+          "face_integrity": "Facial proportions and structure are natural and intact.",
+          "reference_quality": "Sharp, unobstructed, and evenly lit frontal portrait."
+        }
+      },
+      "verdict": "pass"
+    },
+    {
+      "character_id": "c2",
+      "attempt": 1,
+      "portrait_path": "refs/c2-1.jpg",
+      "review": {
+        "scores": {
+          "description_match": 3,
+          "single_subject": 4,
+          "adult": 4,
+          "clean_frame": 4,
+          "face_integrity": 4,
+          "reference_quality": 4
+        },
+        "explanations": {
+          "description_match": "Strongly aligns with facial traits and jacket, though the shirt possesses a collar rather than being collarless.",
+          "single_subject": "Only one subject is present in the frame.",
+          "adult": "The subject appears as a young adult in his twenties.",
+          "clean_frame": "Frame is clear of any logos, text, or border elements.",
+          "face_integrity": "Anatomically sound face with natural, coherent proportions.",
+          "reference_quality": "High-resolution portrait with good clarity and lighting suitable for a character reference."
+        }
+      },
+      "verdict": "pass"
+    }
+  ]
+}

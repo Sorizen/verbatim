@@ -1,0 +1,110 @@
+@use '@/styles/functions' as *;
+
+.film-frame {
+  position: relative;
+  min-height: toRem(84);
+  padding: toRem(12) toRem(12) toRem(16);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: toRem(8);
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
+  box-shadow: inset 0 0 0 1px var(--color-lip);
+
+  &--ok {
+    background: var(--color-surface-exposed);
+  }
+
+  &--rejected {
+    background: var(--color-frame-rejected);
+  }
+
+  &--failed {
+    background: var(--color-frame-failed);
+  }
+
+  &--running {
+    background: var(--color-surface-exposed);
+    box-shadow: inset 0 0 0 1px var(--color-accent);
+  }
+
+  &--pending {
+    background: transparent;
+    box-shadow: inset 0 0 0 1px var(--color-lip-strong);
+  }
+}
+
+.film-frame__step {
+  color: var(--color-ink);
+  font-size: toRem(14);
+  font-weight: 600;
+  line-height: 1.25;
+
+  &--pending {
+    color: var(--color-ink-muted);
+  }
+}
+
+.film-frame__meta {
+  display: flex;
+  align-items: baseline;
+  gap: toRem(8);
+  font-size: toRem(13);
+}
+
+.film-frame__attempt {
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.film-frame__state {
+  color: var(--color-ink-muted);
+
+  &--ok {
+    color: var(--color-ok);
+  }
+
+  &--rejected {
+    color: var(--color-accent-strong);
+  }
+
+  &--failed {
+    color: var(--color-bad);
+  }
+
+  &--running {
+    color: var(--color-ink);
+  }
+}
+
+.film-frame__progress {
+  position: absolute;
+  left: toRem(12);
+  right: toRem(12);
+  bottom: toRem(6);
+  height: toRem(3);
+  border-radius: toRem(2);
+  background: var(--color-accent);
+  animation: film-frame-expose 1600ms var(--ease-out) infinite;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+    opacity: 0.6;
+  }
+}
+
+@keyframes film-frame-expose {
+  0% {
+    clip-path: inset(0 100% 0 0 round toRem(2));
+  }
+
+  55% {
+    clip-path: inset(0 0 0 0 round toRem(2));
+  }
+
+  100% {
+    clip-path: inset(0 0 0 100% round toRem(2));
+  }
+}

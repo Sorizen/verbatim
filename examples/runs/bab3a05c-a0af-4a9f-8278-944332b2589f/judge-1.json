@@ -1,0 +1,188 @@
+{
+  "attempt": 1,
+  "format": {
+    "aspect_ok": true,
+    "duration_s": 14.03,
+    "duration_ok": true,
+    "has_audio": true
+  },
+  "asr_model": "openai/whisper-large-v3",
+  "lines": [
+    {
+      "shot_id": "s1",
+      "speaker": "c1",
+      "expected": "Don't touch it. It's the last living thing from Earth.",
+      "heard": "don't touch it i'm sorry it's the last living thing from earth",
+      "wer": 0.2,
+      "diff": [
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "i'm"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "sorry"
+        }
+      ],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "don't",
+          "heard": "don't"
+        },
+        {
+          "op": null,
+          "expected": "touch",
+          "heard": "touch"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "i'm"
+        },
+        {
+          "op": "ins",
+          "expected": null,
+          "heard": "sorry"
+        },
+        {
+          "op": null,
+          "expected": "it's",
+          "heard": "it's"
+        },
+        {
+          "op": null,
+          "expected": "the",
+          "heard": "the"
+        },
+        {
+          "op": null,
+          "expected": "last",
+          "heard": "last"
+        },
+        {
+          "op": null,
+          "expected": "living",
+          "heard": "living"
+        },
+        {
+          "op": null,
+          "expected": "thing",
+          "heard": "thing"
+        },
+        {
+          "op": null,
+          "expected": "from",
+          "heard": "from"
+        },
+        {
+          "op": null,
+          "expected": "earth",
+          "heard": "earth"
+        }
+      ],
+      "start_s": 1.1899999809265136,
+      "end_s": 5.4299999570846555,
+      "speaker_matches": true,
+      "speaker_visibility": "on_screen"
+    },
+    {
+      "shot_id": "s2",
+      "speaker": "c2",
+      "expected": "Then why does it feel like it's calling me?",
+      "heard": "then why does it feel like it's calling me",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "then",
+          "heard": "then"
+        },
+        {
+          "op": null,
+          "expected": "why",
+          "heard": "why"
+        },
+        {
+          "op": null,
+          "expected": "does",
+          "heard": "does"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "feel",
+          "heard": "feel"
+        },
+        {
+          "op": null,
+          "expected": "like",
+          "heard": "like"
+        },
+        {
+          "op": null,
+          "expected": "it's",
+          "heard": "it's"
+        },
+        {
+          "op": null,
+          "expected": "calling",
+          "heard": "calling"
+        },
+        {
+          "op": null,
+          "expected": "me",
+          "heard": "me"
+        }
+      ],
+      "start_s": 7.200000109672547,
+      "end_s": 9.31999987602234,
+      "speaker_matches": true,
+      "speaker_visibility": "on_screen"
+    }
+  ],
+  "judgment": {
+    "physics_integrity": 7,
+    "temporal_continuity": 7,
+    "reaction_plausibility": 7,
+    "character_presence_consistency": 10,
+    "on_screen_text": false,
+    "artifacts": [],
+    "speakers": [
+      {
+        "shot_id": "s1",
+        "visibility": "on_screen"
+      },
+      {
+        "shot_id": "s2",
+        "visibility": "on_screen"
+      }
+    ],
+    "analysis": "Both Dr. Varga and Noor Hadley match reference designs accurately. Dialogue delivery and lip synchronization are consistent across s1 and s2 with plausible physical lighting and stable continuity."
+  },
+  "verdict": "retry",
+  "reasons": [
+    "s1: heard \"don't touch it i'm sorry it's the last living thing from earth\" instead of \"Don't touch it. It's the last living thing from Earth.\""
+  ],
+  "mismatched_words": 2,
+  "ignored_speech": [
+    {
+      "text": "♪♪",
+      "start_s": 0.0,
+      "end_s": 0.78,
+      "reason": "sound_note"
+    }
+  ]
+}

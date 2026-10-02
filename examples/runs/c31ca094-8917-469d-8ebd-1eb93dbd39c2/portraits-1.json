@@ -1,0 +1,53 @@
+{
+  "round": 1,
+  "checks": [
+    {
+      "character_id": "c1",
+      "attempt": 1,
+      "portrait_path": "refs/c1-1.jpg",
+      "review": {
+        "scores": {
+          "description_match": 4,
+          "single_subject": 4,
+          "adult": 4,
+          "clean_frame": 4,
+          "face_integrity": 4,
+          "reference_quality": 4
+        },
+        "explanations": {
+          "description_match": "The appearance and clothing closely match the prompt, though the envelope is omitted.",
+          "single_subject": "A single individual is pictured clearly without background bystanders.",
+          "adult": "The subject appears as an adult in her early twenties.",
+          "clean_frame": "The image has a clean composition free of text, borders, or artifacts.",
+          "face_integrity": "Facial features and anatomical structure are well rendered and plausible.",
+          "reference_quality": "Sharp focus, neutral background, and good lighting provide strong reference suitability."
+        }
+      },
+      "verdict": "pass"
+    },
+    {
+      "character_id": "c2",
+      "attempt": 1,
+      "portrait_path": "refs/c2-1.jpg",
+      "review": {
+        "scores": {
+          "description_match": 4,
+          "single_subject": 4,
+          "adult": 4,
+          "clean_frame": 4,
+          "face_integrity": 4,
+          "reference_quality": 4
+        },
+        "explanations": {
+          "description_match": "Closely aligns with the requested elderly features and wardrobe, missing only cropped lower-body elements.",
+          "single_subject": "Only the primary subject appears in the frame.",
+          "adult": "Subject is unmistakably an elderly adult.",
+          "clean_frame": "Frame is completely clear of overlays, watermarks, or extraneous borders.",
+          "face_integrity": "Facial features appear realistic, sharp, and anatomically natural.",
+          "reference_quality": "Lighting and focus are well-balanced, providing a clear reference view of the face."
+        }
+      },
+      "verdict": "pass"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "revision": 1,
+  "verdict": "revise",
+  "rule_violations": [],
+  "review": {
+    "hook": {
+      "score": 7,
+      "reason": "The first shot has a cocky stranger shoving through swinging doors, the piano cutting out and every eye turning, which gives a classic western tension beat with a clear target (Amos's hat). It retains viewers, but there is no spoken line or sharp image yet, and 4 seconds of walk-in is a bit long for a 15s piece, so the conflict is implied rather than felt.",
+      "improvements": [
+        "Cut the opening to about 2.5 seconds and give the freed time to the confrontation, so the first shot reaches the provocation sooner.",
+        "Open on a sharper, more specific image such as the doors slamming against the wall and a glass freezing mid-air, so the stillness feels like an immediate threat rather than a generic entrance."
+      ]
+    },
+    "escalation": {
+      "score": 6,
+      "reason": "The beats climb in a clear order: entrance, insult, quiet counter, punch. Amos's reply 'She did. Now you can apologize to her.' is a good turn that makes the insult personal and raises the stakes. But Jack's reaction is only a grin, there is no step between the reply and the punch, and the last shot gives both the cocked fist and the landing punch in 3 seconds. The pressure rises mostly by sequence, not through a shift in power, and the outcome is predictable.",
+      "improvements": [
+        "Add a beat after Amos's reply where Jack's confidence visibly cracks, such as his smirk freezing as the room goes quiet and nearby patrons edge away, so the balance of power tips toward Amos before the punch.",
+        "Give Amos's turn in shot three one concrete escalating action, such as him removing the hat slowly or stepping into Jack's space, so the threat grows physically as well as verbally.",
+        "Rebalance durations so shot four does not cram the cocked fist, the grin and the landing punch into 3 seconds; trim the walk-in and give the stand-off a longer hold of silence before the violence."
+      ]
+    },
+    "ending": {
+      "score": 6,
+      "reason": "The scene ends exactly as the first punch lands, which matches the intended ending and creates momentum. But it fires the payoff rather than holding a question: the punch lands with no unresolved element, such as who is hit, who else will join, or what the outcome will be, so anticipation for the next scene is modest. Having both Jack's fist cocked and Amos's fist landing blurs who throws the first punch.",
+      "improvements": [
+        "Make the final image unambiguous and end on the instant of impact on Jack's face, with a clear single actor, so the cut lands on a decisive beat.",
+        "Add one open question in the last frame, such as a patron reaching for a gun or a chair scraping back behind Jack, so viewers want to know whether the brawl stays a two-man fight."
+      ]
+    }
+  }
+}

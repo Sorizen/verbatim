@@ -1,0 +1,28 @@
+{
+  "revision": 2,
+  "verdict": "revise",
+  "rule_violations": [],
+  "review": {
+    "hook": {
+      "score": 7,
+      "reason": "The first shot packs in a lot of stimulus: doors slamming, a glass frozen mid-air, the piano dying, and a swaggering stranger insulting a huge man. The silence-then-insult pattern is a classic western tension setup and establishes the conflict immediately. The locked line is a clear provocation. However, the beat holds several actions in one 4-second shot, so the pacing may be crowded, and the insult lands at a fairly familiar level of stakes.",
+      "improvements": [
+        "Sequence the shot beat so the doors slam and the room goes silent first, then the line lands on a held, quiet beat, so the insult is the sharpest sound in the shot rather than competing with the glass and piano cues."
+      ]
+    },
+    "escalation": {
+      "score": 6,
+      "reason": "The progression is mostly clear: insult, calm counter, Jack's smirk faltering and Amos closing the distance, then the punch. Amos's reply is a good tonal flip because the mockery is turned into a threat, which shifts the power balance. But after that line there is no further dialogue, so shots 3 and 4 escalate only through physical action. The path from calm threat to punch is predictable, and Jack never gets a counter move that raises the pressure in return.",
+      "improvements": [
+        "Give Jack a visible reaction beat in shot 3 that tries to save face, such as a hand edging toward his gun belt, so he raises the stakes before Amos moves and the punch feels like an answer to a second provocation.",
+        "Make the patrons' reaction in shot 3 grow in a staged way, with first one person leaving the frame and then the whole room clearing, so the rising danger is visible in the background and not only in the two leads.",
+        "Shorten the shot 2 hold on Amos's hand on the bar and use the saved time to lengthen the shot 3 close-in, so the pressure builds longer between the threat and the punch."
+      ]
+    },
+    "ending": {
+      "score": 8,
+      "reason": "The scene ends on the punch as requested, and the extra detail of a chair scraping and a patron's hand dropping toward his holster widens the conflict from a fistfight into a potential gunfight. This gives strong anticipation for the next scene: who draws, and whether the brawl turns deadly.",
+      "improvements": []
+    }
+  }
+}

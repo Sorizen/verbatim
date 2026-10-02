@@ -1,0 +1,102 @@
+{
+  "format": {
+    "aspect": "9:16",
+    "resolution": "480p",
+    "duration_s": 13
+  },
+  "style": "Photoreal 1950s Central European noir thriller look, dim sodium-amber and cold green-blue practical light, desaturated muted palette with deep shadows, fine 35mm film grain, soft halation and slight vignette",
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Conductor Aldous Brandt",
+      "look": "Male, 52, tall and lean with a slight stoop, long narrow face with deep nasolabial lines, hollow cheeks and heavy-lidded pale grey eyes. Thin graying hair combed flat and parted on the left, neat narrow moustache, pale weathered skin, a small scar through the left eyebrow.",
+      "wardrobe": "Dark navy 1950s Central European railway conductor uniform with a high-buttoned tunic, brass buttons and a narrow red piping collar, matching peaked cap with a tarnished metal badge, white shirt with a thin black tie, black leather ticket pouch strap across the chest, a metal ticket punch in hand, a silver pocket watch chain across the vest.",
+      "voice": "Deep, dry baritone male voice, Central European accent, very slow, measured and cold, low volume",
+      "portrait": "refs/c1-1.jpg"
+    },
+    {
+      "id": "c2",
+      "name": "Tomas Weiss",
+      "look": "Male, 24, slim and slightly hunched build, boyish oval face with a sharp jaw, wide dark brown eyes with dark shadows beneath them, pale clammy skin with a faint sheen of sweat, thick dark brown hair, messy and slightly too long over the forehead, light stubble.",
+      "wardrobe": "Worn 1950s Central European clothes: a rumpled brown wool jacket with frayed cuffs over a cream collarless shirt buttoned to the neck, a loosened thin knitted tie, a flat grey tweed cap crumpled in his hand, dusty cuffs, and a small cardboard suitcase at his feet.",
+      "voice": "Light, higher-pitched young male voice, Central European accent, fast, breathy and shaky, dropping to a whisper",
+      "portrait": "refs/c2-1.jpg"
+    }
+  ],
+  "setting": {
+    "place": "Nearly empty wooden-paneled passenger car of a moving night train, worn leather seats, dark windows reflecting the interior",
+    "time_of_day": "night",
+    "light": "Weak flickering amber ceiling lamps casting hard shadows, cold blue darkness pressing against the windows",
+    "ambient_sound": "Low steady rhythm of wheels on rails, faint creaking of wood and a distant muffled rattle of the carriage",
+    "ambient_level": "normal"
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "duration_s": 3,
+      "camera": {
+        "size": "close-up",
+        "movement": "push-in",
+        "angle": "eye-level"
+      },
+      "action": "c1 holds his metal punch motionless over a ticket in c2's trembling hand while the car lights flicker. His pale grey eyes lock onto c2 and his lips move clearly as he speaks.",
+      "dialogue": {
+        "speaker": "c1",
+        "text": "This ticket is for yesterday's train.",
+        "delivery": "Very slow, low and cold, each word clearly separated, flat controlled accusation with a slight downward finish"
+      },
+      "sfx": [
+        "faint electrical flicker of the lamps",
+        "soft creak of leather strap",
+        "muffled train wheels"
+      ]
+    },
+    {
+      "id": "s2",
+      "duration_s": 4,
+      "camera": {
+        "size": "close-up",
+        "movement": "static",
+        "angle": "over-shoulder"
+      },
+      "action": "c2 swallows hard, his wide eyes darting up at c1, and his lips tremble as he whispers. c1 leans in at the edge of the frame and slowly taps the stamped date with the punch.",
+      "dialogue": {
+        "speaker": "c2",
+        "text": "I was on that train. I never got off.",
+        "delivery": "Breathy whisper, shaky and panicked, slow enough for each word to be heard, voice cracking slightly on the second sentence"
+      },
+      "sfx": [
+        "soft metallic tap of the punch on paper",
+        "shaky breath",
+        "low rumble of the rails"
+      ]
+    },
+    {
+      "id": "s3",
+      "duration_s": 6,
+      "camera": {
+        "size": "medium",
+        "movement": "push-in",
+        "angle": "eye-level"
+      },
+      "action": "c2 slowly turns his head toward the dark window. In the glass, the reflection shows an empty seat and c1 standing behind it, his reflected eyes staring straight at c2.",
+      "dialogue": null,
+      "sfx": [
+        "slow rhythmic train wheels",
+        "faint creak of the carriage",
+        "a long low exhale"
+      ]
+    }
+  ],
+  "negative": [
+    "subtitles",
+    "on-screen text",
+    "captions",
+    "extra speaking characters",
+    "additional people in the car",
+    "modern objects",
+    "logos or watermarks",
+    "fast cuts or rapid motion",
+    "distorted faces or hands"
+  ]
+}

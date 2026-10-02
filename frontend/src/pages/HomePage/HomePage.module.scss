@@ -1,0 +1,61 @@
+@use '@/styles/functions' as *;
+@use '@/styles/breakpoints' as bp;
+
+$monitor-drop: toRem(56);
+$monitor-allowance: toRem(190);
+$monitor-overlap: toRem(-42);
+
+.home-page {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: toRem(20) var(--gutter) toRem(64);
+
+  @media (min-width: bp.$desktop) {
+    flex: 1;
+    display: grid;
+    align-content: center;
+    min-height: toRem(520);
+    padding-block: toRem(16) toRem(32);
+  }
+}
+
+.home-page__stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: toRem(28);
+
+  @media (min-width: bp.$desktop) {
+    --monitor-height: min(#{toRem(533)}, calc(100svh - #{$monitor-allowance}));
+
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    align-items: start;
+    gap: 0;
+  }
+}
+
+.home-page__script {
+  min-width: 0;
+}
+
+.home-page__monitor {
+  position: relative;
+  width: min(100%, toRem(300));
+  justify-self: center;
+
+  @media (min-width: bp.$desktop) {
+    width: calc(var(--monitor-height) * 9 / 16);
+    margin-top: $monitor-drop;
+    margin-left: $monitor-overlap;
+  }
+}
+
+.home-page__runs {
+  min-width: 0;
+
+  @media (min-width: bp.$desktop) {
+    height: var(--monitor-height);
+    margin-top: $monitor-drop;
+    margin-left: toRem(20);
+  }
+}

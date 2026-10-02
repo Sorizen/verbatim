@@ -1,0 +1,20 @@
+@use '@/styles/functions' as *;
+
+$sprocket: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='12'%3E%3Crect x='7' y='3' width='8' height='6' rx='1.6' fill='%230b110f'/%3E%3C/svg%3E";
+
+.film-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(toRem(124), 1fr));
+  gap: toRem(8);
+  margin: 0;
+  padding: toRem(24) toRem(12);
+  list-style: none;
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface-raised);
+  background-image: url($sprocket), url($sprocket);
+  background-repeat: repeat-x;
+  background-position:
+    0 toRem(5),
+    0 calc(100% - #{toRem(5)});
+  box-shadow: inset 0 0 0 1px var(--color-lip);
+}

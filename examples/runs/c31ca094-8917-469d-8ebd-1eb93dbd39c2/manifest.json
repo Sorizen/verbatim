@@ -1,0 +1,16 @@
+{
+  "run_id": "c31ca094-8917-469d-8ebd-1eb93dbd39c2",
+  "idea": "In a quiet bookshop just before closing, a young woman slides a faded letter across the counter to the old owner: \"My grandmother asked me to give you this. She said you would understand.\" He reads the first line and slowly takes off his glasses.",
+  "status": "done",
+  "final_path": "final.mp4",
+  "best_attempt": 2,
+  "models": {
+    "llm": "anthropic/claude-sonnet-5.5",
+    "images": "google/gemini-3.1-flash-image",
+    "video": "alibaba/wan-3.0",
+    "speech": "openai/whisper-large-v3",
+    "judge": "google/gemini-3.8-flash"
+  },
+  "cost_usd": 1.5311,
+  "review_reason": null
+}

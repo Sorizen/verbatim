@@ -1,0 +1,85 @@
+{
+  "logline": "Just before closing, a young woman hands an elderly bookshop owner a faded letter from her grandmother, and as he reads its first line he slowly removes his glasses, overwhelmed by a past he thought was buried.",
+  "genre": "drama",
+  "tone": "warm",
+  "setting": {
+    "place": "A quiet independent bookshop, at the checkout counter",
+    "time_of_day": "evening",
+    "era": "Present-day Britain"
+  },
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Clara Whitmore",
+      "role": "the messenger",
+      "age": 24
+    },
+    {
+      "id": "c2",
+      "name": "Arthur Penhale",
+      "role": "the old bookshop owner receiving the letter",
+      "age": 74
+    }
+  ],
+  "target_duration_s": 14,
+  "assumptions": [
+    {
+      "field": "setting.place",
+      "value": "A quiet independent bookshop, at the checkout counter",
+      "source": "user"
+    },
+    {
+      "field": "setting.time_of_day",
+      "value": "evening",
+      "source": "inferred"
+    },
+    {
+      "field": "setting.era",
+      "value": "Present-day Britain",
+      "source": "inferred"
+    },
+    {
+      "field": "genre",
+      "value": "drama",
+      "source": "inferred"
+    },
+    {
+      "field": "tone",
+      "value": "warm",
+      "source": "inferred"
+    },
+    {
+      "field": "characters.c1",
+      "value": "Clara Whitmore, a young woman aged 24, the granddaughter delivering the letter",
+      "source": "inferred"
+    },
+    {
+      "field": "characters.c2",
+      "value": "Arthur Penhale, the old shop owner aged 74",
+      "source": "inferred"
+    },
+    {
+      "field": "letter",
+      "value": "A faded letter slid across the counter",
+      "source": "user"
+    },
+    {
+      "field": "action",
+      "value": "He reads the first line and slowly takes off his glasses",
+      "source": "user"
+    },
+    {
+      "field": "dialogue",
+      "value": "Clara speaks the locked line; Arthur stays silent, reacting only through action",
+      "source": "inferred"
+    },
+    {
+      "field": "target_duration_s",
+      "value": "14 seconds: one spoken line of about 5 seconds plus time for the letter slide, the reading and the glasses moment",
+      "source": "inferred"
+    }
+  ],
+  "locked_lines": [
+    "My grandmother asked me to give you this. She said you would understand."
+  ]
+}

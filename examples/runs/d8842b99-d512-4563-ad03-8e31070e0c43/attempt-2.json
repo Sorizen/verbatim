@@ -1,0 +1,10 @@
+{
+  "attempt": 2,
+  "model": "alibaba/wan-3.0",
+  "request_path": "requests/2.json",
+  "seed": 1771519841,
+  "job_id": "gen-vid-1790934010-9Tc9CwPXIHv7lTxjioCO",
+  "status": "completed",
+  "video_path": "takes/2.mp4",
+  "cost_usd": 0.6375
+}

@@ -1,0 +1,39 @@
+{
+  "title": "The Last Bloom",
+  "shots": [
+    {
+      "id": "s1",
+      "beat": "Noor's trembling hand reaches toward the glowing flower in the dark greenhouse as Elias lunges into frame.",
+      "duration_s": 4,
+      "line": {
+        "speaker": "c1",
+        "text": "Don't touch it. It's the last living thing from Earth.",
+        "emotion": "urgent, commanding",
+        "locked": true
+      }
+    },
+    {
+      "id": "s2",
+      "beat": "Noor freezes, pulls her hand back, and stares at the old man, shaken and defensive.",
+      "duration_s": 4,
+      "line": {
+        "speaker": "c2",
+        "text": "Then why does it feel like it's calling me?",
+        "emotion": "frightened, defiant",
+        "locked": false
+      }
+    },
+    {
+      "id": "s3",
+      "beat": "Elias slowly steps back, his face shifting from anger to dread, as the flower's glow pulses.",
+      "duration_s": 3,
+      "line": null
+    },
+    {
+      "id": "s4",
+      "beat": "The flower slowly turns its bloom away from Elias and toward Noor, its light brightening on her stunned face.",
+      "duration_s": 3,
+      "line": null
+    }
+  ]
+}

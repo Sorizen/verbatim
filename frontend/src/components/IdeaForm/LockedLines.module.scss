@@ -1,0 +1,30 @@
+@use '@/styles/functions' as *;
+
+.locked-lines {
+  padding: toRem(14) toRem(18);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-raised);
+}
+
+.locked-lines__title {
+  margin: 0 0 toRem(8);
+  color: var(--color-ink-muted);
+  font-size: toRem(14);
+  font-weight: 600;
+}
+
+.locked-lines__list {
+  display: flex;
+  flex-direction: column;
+  gap: toRem(6);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.locked-lines__line {
+  color: var(--color-accent-strong);
+  font-family: var(--font-script);
+  font-size: toRem(17);
+  line-height: 1.5;
+}

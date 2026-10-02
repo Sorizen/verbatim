@@ -1,0 +1,29 @@
+@use '@/styles/functions' as *;
+
+.aligned-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: toRem(4) toRem(8);
+  margin: 0;
+  font-family: var(--font-script);
+  font-size: toRem(15);
+  line-height: 1.6;
+}
+
+.aligned-words__word {
+  color: var(--color-ink-muted);
+}
+
+.aligned-words__missed {
+  color: var(--color-bad);
+  text-decoration-line: line-through;
+  text-decoration-thickness: 1.5px;
+}
+
+.aligned-words__wrong {
+  color: var(--color-bad);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}

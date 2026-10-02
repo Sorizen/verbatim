@@ -1,0 +1,34 @@
+{
+  "title": "The Last Customer",
+  "shots": [
+    {
+      "id": "s1",
+      "beat": "Arthur freezes with the key half turned in the shop door as Clara's palm hits the glass, her breath quick and her eyes darting to the faded envelope in her hand.",
+      "duration_s": 3,
+      "line": null
+    },
+    {
+      "id": "s2",
+      "beat": "Clara slides the letter across the counter, Arthur's hand pulls back warily, and she holds the envelope in place as she speaks.",
+      "duration_s": 6,
+      "line": {
+        "speaker": "c1",
+        "text": "My grandmother asked me to give you this. She said you would understand.",
+        "emotion": "nervous, then steadying",
+        "locked": true
+      }
+    },
+    {
+      "id": "s3",
+      "beat": "Arthur unfolds the page with trembling fingers, his other hand gripping the counter edge, and reads the first line.",
+      "duration_s": 2,
+      "line": null
+    },
+    {
+      "id": "s4",
+      "beat": "Arthur slowly removes his glasses, his eyes glistening, and his gaze lingers on Clara's face as if he sees someone long lost in it.",
+      "duration_s": 3,
+      "line": null
+    }
+  ]
+}

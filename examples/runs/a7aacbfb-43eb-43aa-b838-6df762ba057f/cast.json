@@ -1,0 +1,18 @@
+{
+  "characters": [
+    {
+      "id": "c1",
+      "look": "Male, 52, tall and lean with a slight stoop, long narrow face with deep nasolabial lines, hollow cheeks and heavy-lidded pale grey eyes. Thin graying hair combed flat and parted on the left, neat narrow moustache, pale weathered skin, a small scar through the left eyebrow.",
+      "wardrobe": "Dark navy 1950s Central European railway conductor uniform with a high-buttoned tunic, brass buttons and a narrow red piping collar, matching peaked cap with a tarnished metal badge, white shirt with a thin black tie, black leather ticket pouch strap across the chest, a metal ticket punch in hand, a silver pocket watch chain across the vest.",
+      "voice": "Deep, dry baritone male voice, Central European accent, very slow, measured and cold, low volume",
+      "portrait_prompt": "Photoreal vertical 9:16 head-and-shoulders portrait of one man, age 52, long narrow face with deep nasolabial lines, hollow cheeks, heavy-lidded pale grey eyes, thin graying hair combed flat and parted on the left, neat narrow moustache, pale weathered skin, small scar through the left eyebrow. He wears a dark navy 1950s Central European railway conductor uniform with a high-buttoned tunic, brass buttons, red piping on the collar, a matching peaked cap with a tarnished metal badge, white shirt and thin black tie, and a black leather ticket pouch strap across his chest. Face fully visible, turned to the camera with a cold, steady gaze, even soft light, plain neutral grey background, no text, no logos, no frames, no other people."
+    },
+    {
+      "id": "c2",
+      "look": "Male, 24, slim and slightly hunched build, boyish oval face with a sharp jaw, wide dark brown eyes with dark shadows beneath them, pale clammy skin with a faint sheen of sweat, thick dark brown hair, messy and slightly too long over the forehead, light stubble.",
+      "wardrobe": "Worn 1950s Central European clothes: a rumpled brown wool jacket with frayed cuffs over a cream collarless shirt buttoned to the neck, a loosened thin knitted tie, a flat grey tweed cap crumpled in his hand, dusty cuffs, and a small cardboard suitcase at his feet.",
+      "voice": "Light, higher-pitched young male voice, Central European accent, fast, breathy and shaky, dropping to a whisper",
+      "portrait_prompt": "Photoreal vertical 9:16 head-and-shoulders portrait of one man, age 24, slim build, boyish oval face with a sharp jaw, wide dark brown eyes with dark shadows beneath them, pale clammy skin with a faint sheen of sweat, thick dark brown hair, messy and falling over the forehead, light stubble. He wears a rumpled brown wool jacket with frayed cuffs over a cream collarless shirt buttoned to the neck with a loosened thin knitted tie, in the style of 1950s Central Europe. Face fully visible, turned three quarters to the camera with a nervous, anxious expression, even soft light, plain neutral grey background, no text, no logos, no frames, no other people."
+    }
+  ]
+}

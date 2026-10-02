@@ -1,0 +1,31 @@
+{
+  "revision": 1,
+  "verdict": "revise",
+  "rule_violations": [],
+  "review": {
+    "hook": {
+      "score": 6,
+      "reason": "The first shot has a clear visual conflict: Arthur locks the door while Clara's palm stops it against the glass. The urgency and the mystery of the faded envelope create curiosity. But the action is quiet and there is no sharp emotional jolt, so the intensity is modest for a 3-second opener.",
+      "improvements": [
+        "Raise the tension in the first second by freezing the key mid-turn the instant her palm hits the glass, and add a close-up of Arthur's startled eyes through the pane so the interruption lands harder.",
+        "Give Clara a visible urgency, such as quick breathing or a hesitant look at the envelope before she presses on the door, so the viewer feels what is at stake before any dialogue."
+      ]
+    },
+    "escalation": {
+      "score": 6,
+      "reason": "The beats move in a logical order from interruption to delivery, reading and emotional release, and Arthur shifts from wary to softened to overwhelmed. However, the pressure rises on a single predictable track with no obstacle, resistance or reversal, and Arthur never pushes back, so the balance of power does not change.",
+      "improvements": [
+        "Add a resistance beat in s2: Arthur's hand hesitates or pulls back slightly as the letter reaches him, then Clara holds it in place. This gives the exchange a push and pull before the line lands.",
+        "Give s3 a physical escalation before the face softens, such as his fingers trembling as he unfolds the page or his other hand gripping the counter edge, so the emotion builds in steps instead of arriving all at once.",
+        "Shift the dynamic so Clara moves from nervous to steadying: when his breath catches, show her stepping closer or lowering her gaze, reversing who holds the power in the exchange."
+      ]
+    },
+    "ending": {
+      "score": 7,
+      "reason": "The final shot lands a clear emotional hook: Arthur removes his glasses, his eyes glisten, and he looks at Clara as if seeing a ghost. This raises a strong question about who the grandmother was and what was buried. It sets up the next scene well, though it resolves into emotion rather than adding a fresh jolt.",
+      "improvements": [
+        "Add a concrete final image that sharpens the unanswered question, such as Arthur's gaze lingering on Clara's face for a resemblance before the cut, so the ghost reaction points to a specific secret that the next scene can pay off."
+      ]
+    }
+  }
+}

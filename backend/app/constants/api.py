@@ -1,0 +1,11 @@
+API_PREFIX = '/api'
+RUNS_TAG = 'runs'
+HEALTH_TAG = 'health'
+
+MIN_IDEA_LENGTH = 10
+MAX_IDEA_LENGTH = 600
+DEFAULT_RUNS_LIMIT = 20
+MAX_RUNS_LIMIT = 100
+
+VIDEO_MEDIA_TYPE = 'video/mp4'
+VIDEO_URL_TEMPLATE = '/api/runs/{run_id}/video'

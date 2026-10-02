@@ -1,0 +1,123 @@
+{
+  "format": {
+    "aspect": "9:16",
+    "resolution": "480p",
+    "duration_s": 16
+  },
+  "style": "Photoreal 1880s western, low-key practical lamplight with warm amber highlights and deep shadows, desaturated dusty browns and muted reds, subtle 35mm film grain with soft halation and gentle vignette",
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Jack Calloway",
+      "look": "Man, 32, lean and wiry build of average height, angular clean-shaven jaw with a day of dark stubble, narrow sharp green eyes, a thin crooked smirk, small scar through the left eyebrow, tanned weathered skin, dark brown shaggy hair that falls over the ears and a little dust on the cheekbones.",
+      "wardrobe": "Worn black flat-brimmed gambler-style hat tilted back, charcoal wool vest over a off-white collarless cotton shirt with rolled sleeves, a loosely knotted red neckerchief, brown leather gun belt with a holstered revolver visible at the hip, dusty dark trousers tucked into scuffed boots.",
+      "voice": "Male, early 30s, light smooth baritone, slightly nasal Southern drawl, fast and lilting, sarcastic sing-song delivery that turns thin and jittery when nervous.",
+      "portrait": "refs/c1-1.jpg"
+    },
+    {
+      "id": "c2",
+      "name": "Big Amos Reed",
+      "look": "Man, 45, huge and broad-shouldered with a thick neck and barrel chest, over six and a half feet tall, heavy square face with a deep-set pale grey eyes under thick brows, broken nose, grey-streaked brown full beard cropped short, deep lines around the eyes, weathered ruddy skin, long grey-brown hair tied at the nape.",
+      "wardrobe": "Old sweat-stained brown felt hat with a slightly crooked crown and visible hand-stitched repairs along the band and brim, faded blue-grey wool shirt with sleeves rolled over thick forearms, worn brown leather suspenders, a heavy canvas work coat open at the front.",
+      "voice": "Male, mid 40s, very deep, rough gravelly bass, slow and quiet with long pauses, a low rumbling Midwestern drawl.",
+      "portrait": "refs/c2-1.jpg"
+    }
+  ],
+  "setting": {
+    "place": "Dusty frontier saloon with a long scarred wooden bar, plank floor, hanging oil lamps and scattered patrons at small tables",
+    "time_of_day": "night",
+    "light": "Warm flickering oil lamp glow with amber pools of light, dark corners and drifting dust in the air",
+    "ambient_sound": "Low murmur of the room, faint creak of floorboards and a distant muffled piano, all kept quiet under the dialogue",
+    "ambient_level": "normal"
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "duration_s": 6,
+      "camera": {
+        "size": "medium",
+        "movement": "push-in",
+        "angle": "eye-level"
+      },
+      "action": "The saloon doors swing open behind c1 and the piano falls silent as a raised glass freezes in a patron's hand. c1 stops close behind the huge, motionless c2, smirking with his lips clearly visible, and speaks toward the back of c2's hat.",
+      "dialogue": {
+        "speaker": "c1",
+        "text": "Nice hat, big man. Did your mother pick it out?",
+        "delivery": "Jack Calloway, alone in frame, speaks every word slowly and clearly with a smug, lilting drawl. He pauses briefly after the first phrase and ends on a rising sing-song. Volume is a little louder than before, and his lips stay visible and in sync the whole time."
+      },
+      "sfx": [
+        "swinging saloon doors",
+        "piano cutting off",
+        "slow bootsteps on planks"
+      ]
+    },
+    {
+      "id": "s2",
+      "duration_s": 4,
+      "camera": {
+        "size": "close-up",
+        "movement": "static",
+        "angle": "eye-level"
+      },
+      "action": "c2 slowly lays one hand flat on the bar and turns his head just enough to show one cold grey eye beneath the stitched hat brim. His lips move as he speaks in a low voice.",
+      "dialogue": {
+        "speaker": "c2",
+        "text": "My mother stitched it. Right before she died.",
+        "delivery": "Very slow, quiet and dangerous, deep and gravelly with a long pause between the two sentences, no raised volume"
+      },
+      "sfx": [
+        "palm settling on wood",
+        "faint leather creak"
+      ]
+    },
+    {
+      "id": "s3",
+      "duration_s": 4,
+      "camera": {
+        "size": "medium",
+        "movement": "handheld",
+        "angle": "eye-level"
+      },
+      "action": "c1's smirk falters and his hand edges toward his gun belt while he speaks, his face clearly visible. Behind him a patron slips away and chairs shift as the room clears.",
+      "dialogue": {
+        "speaker": "c1",
+        "text": "Easy, friend. It was only a joke.",
+        "delivery": "Nervous forced bravado, slightly fast but still clear, thin and jittery with a cracking, over-light tone on the last phrase"
+      },
+      "sfx": [
+        "chair legs scraping",
+        "hurried footsteps",
+        "leather belt creak"
+      ]
+    },
+    {
+      "id": "s4",
+      "duration_s": 2,
+      "camera": {
+        "size": "medium",
+        "movement": "handheld",
+        "angle": "low"
+      },
+      "action": "c2 rises to his full height and swings a heavy fist into c1's jaw, snapping c1's head to the side. In the background a chair scrapes and a patron's hand drops toward his holster.",
+      "dialogue": null,
+      "sfx": [
+        "heavy thud of a punch",
+        "chair scraping",
+        "sharp intake of breath"
+      ]
+    }
+  ],
+  "negative": [
+    "subtitles",
+    "on-screen text",
+    "captions",
+    "watermarks",
+    "extra speaking characters",
+    "blood",
+    "gore",
+    "drawn weapons",
+    "gunfire",
+    "modern objects",
+    "modern clothing"
+  ]
+}

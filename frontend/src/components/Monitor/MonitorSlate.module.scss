@@ -1,0 +1,49 @@
+@use '@/styles/functions' as *;
+
+.monitor-slate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: toRem(10);
+  text-align: center;
+}
+
+.monitor-slate__take {
+  font-family: var(--font-display);
+  font-size: toRem(64);
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  animation: monitor-slate-enter 420ms var(--ease-out);
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+.monitor-slate__title {
+  margin: 0;
+  max-width: 18ch;
+  color: var(--color-ink);
+  font-size: toRem(17);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.monitor-slate__caption {
+  margin: 0;
+  max-width: 22ch;
+  color: var(--color-ink-faint);
+  font-size: toRem(14);
+}
+
+@keyframes monitor-slate-enter {
+  from {
+    transform: translateY(toRem(10));
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

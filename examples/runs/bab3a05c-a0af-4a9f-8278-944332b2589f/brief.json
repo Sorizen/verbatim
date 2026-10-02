@@ -1,0 +1,90 @@
+{
+  "logline": "In a hushed space station greenhouse, an old botanist warns a nervous new crew member away from the last living flower from Earth, and as the young man steps back, the flower slowly turns toward him.",
+  "genre": "fantasy",
+  "tone": "tense",
+  "setting": {
+    "place": "Quiet greenhouse module aboard a space station",
+    "time_of_day": "night",
+    "era": "Far-future deep space"
+  },
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Dr. Elias Varga",
+      "role": "the old botanist and guardian of the flower",
+      "age": 71
+    },
+    {
+      "id": "c2",
+      "name": "Noor Hadley",
+      "role": "the nervous new crew member who reaches for the flower",
+      "age": 24
+    }
+  ],
+  "target_duration_s": 14,
+  "assumptions": [
+    {
+      "field": "setting.place",
+      "value": "Quiet greenhouse module aboard a space station",
+      "source": "user"
+    },
+    {
+      "field": "characters.c1.role",
+      "value": "old botanist who stops the new crew member",
+      "source": "user"
+    },
+    {
+      "field": "characters.c2.role",
+      "value": "nervous new crew member",
+      "source": "user"
+    },
+    {
+      "field": "dialogue",
+      "value": "Don't touch it. It's the last living thing from Earth.",
+      "source": "user"
+    },
+    {
+      "field": "flower",
+      "value": "single glowing flower that slowly turns toward the botanist as he steps back",
+      "source": "user"
+    },
+    {
+      "field": "setting.time_of_day",
+      "value": "night",
+      "source": "inferred"
+    },
+    {
+      "field": "setting.era",
+      "value": "Far-future deep space",
+      "source": "inferred"
+    },
+    {
+      "field": "genre",
+      "value": "fantasy",
+      "source": "inferred"
+    },
+    {
+      "field": "tone",
+      "value": "tense",
+      "source": "inferred"
+    },
+    {
+      "field": "characters.names_and_ages",
+      "value": "Dr. Elias Varga (71) and Noor Hadley (24)",
+      "source": "inferred"
+    },
+    {
+      "field": "number_of_characters",
+      "value": "Two characters facing each other across the flower for a clear single conflict",
+      "source": "inferred"
+    },
+    {
+      "field": "target_duration_s",
+      "value": "14 seconds: one spoken line, a reaching gesture, the botanist stepping back, and the flower turning",
+      "source": "inferred"
+    }
+  ],
+  "locked_lines": [
+    "Don't touch it. It's the last living thing from Earth."
+  ]
+}

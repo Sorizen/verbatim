@@ -1,0 +1,90 @@
+{
+  "logline": "A cocky stranger strides into a saloon and mocks a hulking patron's hat, and the big man's quiet reply ignites a brawl.",
+  "genre": "western",
+  "tone": "tense",
+  "setting": {
+    "place": "dusty frontier saloon",
+    "time_of_day": "night",
+    "era": "1880s American frontier"
+  },
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Jack Calloway",
+      "role": "the provoker",
+      "age": 32
+    },
+    {
+      "id": "c2",
+      "name": "Big Amos Reed",
+      "role": "the big man who takes the bait",
+      "age": 45
+    }
+  ],
+  "target_duration_s": 15,
+  "assumptions": [
+    {
+      "field": "setting.place",
+      "value": "dusty frontier saloon",
+      "source": "user"
+    },
+    {
+      "field": "genre",
+      "value": "western",
+      "source": "inferred"
+    },
+    {
+      "field": "tone",
+      "value": "tense",
+      "source": "inferred"
+    },
+    {
+      "field": "setting.time_of_day",
+      "value": "night",
+      "source": "inferred"
+    },
+    {
+      "field": "setting.era",
+      "value": "1880s American frontier",
+      "source": "inferred"
+    },
+    {
+      "field": "characters",
+      "value": "Two speaking characters: the mocking man (c1) and the big guy (c2)",
+      "source": "inferred"
+    },
+    {
+      "field": "characters.c1.name",
+      "value": "Jack Calloway",
+      "source": "inferred"
+    },
+    {
+      "field": "characters.c2.name",
+      "value": "Big Amos Reed",
+      "source": "inferred"
+    },
+    {
+      "field": "characters.c1.line",
+      "value": "Nice hat, big man. Did your mother pick it out?",
+      "source": "user"
+    },
+    {
+      "field": "characters.c2.reply",
+      "value": "The big guy answers with a short, low reply before the fight starts; wording chosen in the script stage",
+      "source": "inferred"
+    },
+    {
+      "field": "ending",
+      "value": "The scene ends as the first punch is thrown",
+      "source": "user"
+    },
+    {
+      "field": "target_duration_s",
+      "value": "15 seconds: two spoken lines plus the walk-in and the start of the fight",
+      "source": "inferred"
+    }
+  ],
+  "locked_lines": [
+    "Nice hat, big man. Did your mother pick it out?"
+  ]
+}

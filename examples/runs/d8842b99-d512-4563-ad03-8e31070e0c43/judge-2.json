@@ -1,0 +1,205 @@
+{
+  "attempt": 2,
+  "format": {
+    "aspect_ok": true,
+    "duration_s": 15.02,
+    "duration_ok": true,
+    "has_audio": true
+  },
+  "asr_model": "openai/whisper-large-v3",
+  "lines": [
+    {
+      "shot_id": "s1",
+      "speaker": "c1",
+      "expected": "Nice hat, big man. Did your mother pick it out?",
+      "heard": "nice hat big man did your mother pick it out",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "nice",
+          "heard": "nice"
+        },
+        {
+          "op": null,
+          "expected": "hat",
+          "heard": "hat"
+        },
+        {
+          "op": null,
+          "expected": "big",
+          "heard": "big"
+        },
+        {
+          "op": null,
+          "expected": "man",
+          "heard": "man"
+        },
+        {
+          "op": null,
+          "expected": "did",
+          "heard": "did"
+        },
+        {
+          "op": null,
+          "expected": "your",
+          "heard": "your"
+        },
+        {
+          "op": null,
+          "expected": "mother",
+          "heard": "mother"
+        },
+        {
+          "op": null,
+          "expected": "pick",
+          "heard": "pick"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "out",
+          "heard": "out"
+        }
+      ],
+      "start_s": 1.061625,
+      "end_s": 4.2265,
+      "speaker_matches": false
+    },
+    {
+      "shot_id": "s2",
+      "speaker": "c2",
+      "expected": "My mother stitched it. Right before she died.",
+      "heard": "my mother stitched it right before she died",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "my",
+          "heard": "my"
+        },
+        {
+          "op": null,
+          "expected": "mother",
+          "heard": "mother"
+        },
+        {
+          "op": null,
+          "expected": "stitched",
+          "heard": "stitched"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "right",
+          "heard": "right"
+        },
+        {
+          "op": null,
+          "expected": "before",
+          "heard": "before"
+        },
+        {
+          "op": null,
+          "expected": "she",
+          "heard": "she"
+        },
+        {
+          "op": null,
+          "expected": "died",
+          "heard": "died"
+        }
+      ],
+      "start_s": 6.530125,
+      "end_s": 9.775125,
+      "speaker_matches": true
+    },
+    {
+      "shot_id": "s3",
+      "speaker": "c1",
+      "expected": "Easy, friend. It was only a joke.",
+      "heard": "easy friend it was only a joke",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "easy",
+          "heard": "easy"
+        },
+        {
+          "op": null,
+          "expected": "friend",
+          "heard": "friend"
+        },
+        {
+          "op": null,
+          "expected": "it",
+          "heard": "it"
+        },
+        {
+          "op": null,
+          "expected": "was",
+          "heard": "was"
+        },
+        {
+          "op": null,
+          "expected": "only",
+          "heard": "only"
+        },
+        {
+          "op": null,
+          "expected": "a",
+          "heard": "a"
+        },
+        {
+          "op": null,
+          "expected": "joke",
+          "heard": "joke"
+        }
+      ],
+      "start_s": 10.896875,
+      "end_s": 13.06025,
+      "speaker_matches": true
+    }
+  ],
+  "judgment": {
+    "physics_integrity": 5,
+    "temporal_continuity": 6,
+    "reaction_plausibility": 6,
+    "character_presence_consistency": 0,
+    "on_screen_text": false,
+    "artifacts": [],
+    "speakers": [
+      {
+        "shot_id": "s1",
+        "visibility": "other_character"
+      },
+      {
+        "shot_id": "s2",
+        "visibility": "on_screen"
+      },
+      {
+        "shot_id": "s3",
+        "visibility": "on_screen"
+      }
+    ],
+    "analysis": "Shot s1 features an unnatural duplication of Jack Calloway (c1), appearing simultaneously in the foreground and midground facing forward, obscuring proper lip sync. Shots s2 and s3 feature consistent character appearances, appropriate facial expressions, and accurate lip synchronization for both characters."
+  },
+  "verdict": "rebuild_shot",
+  "reasons": [
+    "s1: c1 is not the visible speaker",
+    "the characters on screen do not match the scene"
+  ],
+  "mismatched_words": 0
+}

@@ -1,0 +1,117 @@
+{
+  "format": {
+    "aspect": "9:16",
+    "resolution": "1080p",
+    "duration_s": 14
+  },
+  "style": "Photoreal far-future sci-fi drama, dark teal and deep blue night palette lit by the flower's soft golden-white bioluminescence, shallow depth of field, fine 35mm film grain, gentle halation on highlights",
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Dr. Elias Varga",
+      "look": "Man aged 71, tall and lean with a slight stoop, deeply lined weathered face, sunken cheeks, sharp pale grey eyes under heavy white eyebrows, short silver hair receding at the temples, trimmed white stubble, age spots on the forehead, thin veined hands stained green at the fingertips.",
+      "wardrobe": "Worn charcoal-grey high-collar station jumpsuit with faded soil stains at the chest, a frayed olive utility apron with small pockets holding pruning tools, a cracked brass-rimmed magnifying monocle hanging from a cord around the neck, a thin silver wristband.",
+      "voice": "deep, gravelly elderly male voice, slow and measured, slightly raspy, faint Eastern European accent, commanding with a tremor under urgency",
+      "portrait": "refs/c1-1.jpg"
+    },
+    {
+      "id": "c2",
+      "name": "Noor Hadley",
+      "look": "Woman aged 24, slim and slightly built, narrow shoulders, oval face with warm brown skin, wide dark brown anxious eyes, defined arched eyebrows, a small scar through the left eyebrow, chin-length black wavy hair tucked behind one ear with loose strands falling on her face, slightly chapped lips.",
+      "wardrobe": "Crisp new navy-blue station crew jumpsuit with a bright unscuffed orange shoulder patch and zip collar, a white fabric ID lanyard with a blank-looking badge clipped at the chest, thin black fingerless work gloves.",
+      "voice": "light, young female voice, quick and breathy, slightly shaky and higher in pitch when nervous, soft London accent",
+      "portrait": "refs/c2-1.jpg"
+    }
+  ],
+  "setting": {
+    "place": "Quiet greenhouse module aboard a deep-space station, with curved metal ribs, planter beds, hanging vines and a viewport showing stars, and a single glowing flower on a central pedestal",
+    "time_of_day": "night",
+    "light": "Night-cycle dimness with cool blue emergency strips along the floor and the flower's warm golden glow as the main source, soft shadows on the faces",
+    "ambient_sound": "Low steady hum of life support, faint dripping irrigation and a barely audible rustle of leaves",
+    "ambient_level": "normal"
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "duration_s": 4,
+      "camera": {
+        "size": "medium",
+        "movement": "push-in",
+        "angle": "eye-level"
+      },
+      "action": "c2's gloved hand trembles as it reaches toward the glowing flower in the foreground, while c1 steps into frame from the side, raises one hand to stop her and speaks to her, his lips clearly visible and his eyes locked on her.",
+      "dialogue": {
+        "speaker": "c1",
+        "text": "Don't touch it. It's the last living thing from Earth.",
+        "delivery": "Slow, firm and urgent, a low gravelly voice with a slight tremor, a pause after the first sentence, the second sentence softer and heavier."
+      },
+      "sfx": [
+        "soft footsteps on metal grating",
+        "rustle of leaves",
+        "faint electrical hum from the flower"
+      ]
+    },
+    {
+      "id": "s2",
+      "duration_s": 4,
+      "camera": {
+        "size": "close-up",
+        "movement": "static",
+        "angle": "eye-level"
+      },
+      "action": "c2 freezes and slowly pulls her hand back to her chest, her wide eyes shifting between the flower and c1 as she speaks, her lips clearly visible, the golden glow flickering on her face.",
+      "dialogue": {
+        "speaker": "c2",
+        "text": "Then why does it feel like it's calling me?",
+        "delivery": "Breathy and shaky but defiant, medium-slow pace, with a rising, questioning intonation on the last words."
+      },
+      "sfx": [
+        "small intake of breath",
+        "soft rustle of her jumpsuit fabric"
+      ]
+    },
+    {
+      "id": "s3",
+      "duration_s": 3,
+      "camera": {
+        "size": "medium",
+        "movement": "static",
+        "angle": "low"
+      },
+      "action": "c1 slowly steps back from the pedestal, his face shifting from anger to dread, while the flower behind him pulses with a slow, brightening glow.",
+      "dialogue": null,
+      "sfx": [
+        "slow footstep on metal floor",
+        "low swelling hum as the flower pulses"
+      ]
+    },
+    {
+      "id": "s4",
+      "duration_s": 3,
+      "camera": {
+        "size": "close-up",
+        "movement": "push-in",
+        "angle": "eye-level"
+      },
+      "action": "The flower's bloom slowly turns away from c1 and toward c2, its petals unfurling slightly as its light brightens across c2's stunned face, her eyes wide and her lips parted.",
+      "dialogue": null,
+      "sfx": [
+        "soft petal rustle",
+        "rising gentle shimmering tone"
+      ]
+    }
+  ],
+  "negative": [
+    "subtitles",
+    "on-screen text",
+    "captions",
+    "watermarks",
+    "extra speaking characters",
+    "additional people in the frame",
+    "fast or jerky movement",
+    "cartoon or CGI look",
+    "distorted hands or faces",
+    "blood",
+    "weapons"
+  ]
+}

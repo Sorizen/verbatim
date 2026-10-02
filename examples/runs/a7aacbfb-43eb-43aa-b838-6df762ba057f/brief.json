@@ -1,0 +1,85 @@
+{
+  "logline": "On a night train, a conductor tells a nervous young man his ticket is for yesterday's train, and he slowly turns to stare out the dark window.",
+  "genre": "thriller",
+  "tone": "tense",
+  "setting": {
+    "place": "Nearly empty passenger car of a moving night train",
+    "time_of_day": "night",
+    "era": "1950s Central Europe"
+  },
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Conductor Aldous Brandt",
+      "role": "the conductor who exposes the ticket",
+      "age": 52
+    },
+    {
+      "id": "c2",
+      "name": "Tomas Weiss",
+      "role": "the nervous young passenger",
+      "age": 24
+    }
+  ],
+  "target_duration_s": 14,
+  "assumptions": [
+    {
+      "field": "setting.place",
+      "value": "Nearly empty passenger car of a moving night train",
+      "source": "inferred"
+    },
+    {
+      "field": "setting.time_of_day",
+      "value": "night",
+      "source": "user"
+    },
+    {
+      "field": "setting.era",
+      "value": "1950s Central Europe",
+      "source": "inferred"
+    },
+    {
+      "field": "genre",
+      "value": "thriller",
+      "source": "inferred"
+    },
+    {
+      "field": "tone",
+      "value": "tense",
+      "source": "inferred"
+    },
+    {
+      "field": "characters",
+      "value": "Two characters: a conductor and a nervous young man",
+      "source": "user"
+    },
+    {
+      "field": "characters.c1",
+      "value": "Conductor Aldous Brandt, age 52",
+      "source": "inferred"
+    },
+    {
+      "field": "characters.c2",
+      "value": "Tomas Weiss, age 24, adult interpreted from 'young man'",
+      "source": "inferred"
+    },
+    {
+      "field": "dialogue.c1",
+      "value": "This ticket is for yesterday's train.",
+      "source": "user"
+    },
+    {
+      "field": "action",
+      "value": "The young man slowly looks out the window",
+      "source": "user"
+    },
+    {
+      "field": "target_duration_s",
+      "value": "14 seconds: one locked line plus a pause for the nervous reaction and the slow look out the window",
+      "source": "inferred"
+    }
+  ],
+  "locked_lines": [
+    "This ticket is for yesterday's train."
+  ]
+}

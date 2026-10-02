@@ -1,0 +1,18 @@
+{
+  "characters": [
+    {
+      "id": "c1",
+      "look": "Man, 32, lean and wiry build of average height, angular clean-shaven jaw with a day of dark stubble, narrow sharp green eyes, a thin crooked smirk, small scar through the left eyebrow, tanned weathered skin, dark brown shaggy hair that falls over the ears and a little dust on the cheekbones.",
+      "wardrobe": "Worn black flat-brimmed gambler-style hat tilted back, charcoal wool vest over a off-white collarless cotton shirt with rolled sleeves, a loosely knotted red neckerchief, brown leather gun belt with a holstered revolver visible at the hip, dusty dark trousers tucked into scuffed boots.",
+      "voice": "Male, early 30s, light smooth baritone, slightly nasal Southern drawl, fast and lilting, sarcastic sing-song delivery that turns thin and jittery when nervous.",
+      "portrait_prompt": "Photoreal vertical 9:16 head-and-shoulders portrait of one man, age 32, lean angular clean-shaven face with a day of dark stubble, narrow sharp green eyes, thin crooked smirk, small scar through the left eyebrow, tanned weathered skin, shaggy dark brown hair falling over his ears, light dust on the cheekbones. He wears a worn black flat-brimmed hat tilted back, a charcoal wool vest over an off-white collarless cotton shirt, and a loosely knotted red neckerchief. Face fully visible, turned toward the camera at three quarters, even soft light, plain neutral grey background, 1880s American frontier look, no text, no logos, no frames, no other people."
+    },
+    {
+      "id": "c2",
+      "look": "Man, 45, huge and broad-shouldered with a thick neck and barrel chest, over six and a half feet tall, heavy square face with a deep-set pale grey eyes under thick brows, broken nose, grey-streaked brown full beard cropped short, deep lines around the eyes, weathered ruddy skin, long grey-brown hair tied at the nape.",
+      "wardrobe": "Old sweat-stained brown felt hat with a slightly crooked crown and visible hand-stitched repairs along the band and brim, faded blue-grey wool shirt with sleeves rolled over thick forearms, worn brown leather suspenders, a heavy canvas work coat open at the front.",
+      "voice": "Male, mid 40s, very deep, rough gravelly bass, slow and quiet with long pauses, a low rumbling Midwestern drawl.",
+      "portrait_prompt": "Photoreal vertical 9:16 head-and-shoulders portrait of one man, age 45, huge broad-shouldered build with a thick neck, heavy square face, deep-set pale grey eyes under thick brows, broken nose, short grey-streaked brown beard, deep lines around the eyes, weathered ruddy skin, long grey-brown hair tied at the nape. He wears an old sweat-stained brown felt hat with a slightly crooked crown and visible hand-stitched repairs on the band, a faded blue-grey wool shirt, brown leather suspenders and an open heavy canvas work coat. Calm cold expression, face fully visible, turned toward the camera at three quarters, even soft light, plain neutral grey background, 1880s American frontier look, no text, no logos, no frames, no other people."
+    }
+  ]
+}

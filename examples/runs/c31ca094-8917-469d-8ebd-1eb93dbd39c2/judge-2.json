@@ -1,0 +1,135 @@
+{
+  "attempt": 2,
+  "format": {
+    "aspect_ok": true,
+    "duration_s": 14.03,
+    "duration_ok": true,
+    "has_audio": true
+  },
+  "asr_model": "openai/whisper-large-v3",
+  "lines": [
+    {
+      "shot_id": "s2",
+      "speaker": "c1",
+      "expected": "My grandmother asked me to give you this. She said you would understand.",
+      "heard": "my grandmother asked me to give you this she said you would understand",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "my",
+          "heard": "my"
+        },
+        {
+          "op": null,
+          "expected": "grandmother",
+          "heard": "grandmother"
+        },
+        {
+          "op": null,
+          "expected": "asked",
+          "heard": "asked"
+        },
+        {
+          "op": null,
+          "expected": "me",
+          "heard": "me"
+        },
+        {
+          "op": null,
+          "expected": "to",
+          "heard": "to"
+        },
+        {
+          "op": null,
+          "expected": "give",
+          "heard": "give"
+        },
+        {
+          "op": null,
+          "expected": "you",
+          "heard": "you"
+        },
+        {
+          "op": null,
+          "expected": "this",
+          "heard": "this"
+        },
+        {
+          "op": null,
+          "expected": "she",
+          "heard": "she"
+        },
+        {
+          "op": null,
+          "expected": "said",
+          "heard": "said"
+        },
+        {
+          "op": null,
+          "expected": "you",
+          "heard": "you"
+        },
+        {
+          "op": null,
+          "expected": "would",
+          "heard": "would"
+        },
+        {
+          "op": null,
+          "expected": "understand",
+          "heard": "understand"
+        }
+      ],
+      "start_s": 3.140000352859497,
+      "end_s": 6.6399996376037596,
+      "speaker_matches": true,
+      "speaker_visibility": "on_screen"
+    }
+  ],
+  "judgment": {
+    "physics_integrity": 7,
+    "temporal_continuity": 7,
+    "reaction_plausibility": 7,
+    "character_presence_consistency": 10,
+    "on_screen_text": false,
+    "artifacts": [],
+    "speakers": [
+      {
+        "shot_id": "s2",
+        "visibility": "on_screen"
+      }
+    ],
+    "analysis": "ClaraWhitmore delivers the dialogue across the counter with natural facial expressions and synchronized lip movements. The envelope placement and character interactions adhere well to physical realism and continuity."
+  },
+  "verdict": "pass",
+  "reasons": [],
+  "mismatched_words": 0,
+  "ignored_speech": [
+    {
+      "text": "*knock knock knock*",
+      "start_s": 0.21,
+      "end_s": 1.11,
+      "reason": "sound_note"
+    },
+    {
+      "text": "*sniff*",
+      "start_s": 7.35,
+      "end_s": 8.77,
+      "reason": "sound_note"
+    },
+    {
+      "text": "*kiss*",
+      "start_s": 10.74,
+      "end_s": 11.46,
+      "reason": "sound_note"
+    },
+    {
+      "text": "*sigh*",
+      "start_s": 12.6,
+      "end_s": 13.1,
+      "reason": "sound_note"
+    }
+  ]
+}

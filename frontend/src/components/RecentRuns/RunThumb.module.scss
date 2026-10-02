@@ -1,0 +1,94 @@
+@use '@/styles/functions' as *;
+@use '@/styles/breakpoints' as bp;
+
+.run-thumb {
+  min-width: 0;
+}
+
+.run-thumb__link {
+  --thumb-edge: var(--color-lip-strong);
+
+  display: grid;
+  grid-template-columns: toRem(48) minmax(0, 1fr);
+  gap: toRem(14);
+  align-items: start;
+  margin-inline: toRem(-8);
+  padding: toRem(8);
+  border-radius: var(--radius-md);
+  color: inherit;
+  text-decoration: none;
+  transition: background-color 160ms var(--ease-out);
+
+  &:hover {
+    --thumb-edge: var(--color-accent);
+
+    background: var(--color-surface);
+  }
+
+  @media (min-width: bp.$desktop) {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: toRem(6);
+
+    &:hover {
+      background: transparent;
+    }
+  }
+}
+
+.run-thumb__screen {
+  display: block;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  border-radius: toRem(6);
+  background: var(--color-monitor);
+  outline: 1px solid var(--thumb-edge);
+  outline-offset: -1px;
+  transition: outline-color 200ms var(--ease-out);
+
+  @media (min-width: bp.$desktop) {
+    width: calc(var(--frame-height) * 9 / 16);
+    height: var(--frame-height);
+  }
+}
+
+.run-thumb__video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.run-thumb__text {
+  display: flex;
+  flex-direction: column;
+  gap: toRem(4);
+  min-width: 0;
+  padding-top: toRem(2);
+
+  @media (min-width: bp.$desktop) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+.run-thumb__status {
+  color: var(--color-ink-muted);
+  font-size: toRem(13);
+}
+
+.run-thumb__idea {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--color-ink);
+  font-size: toRem(14);
+  line-height: 1.4;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}

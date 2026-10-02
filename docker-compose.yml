@@ -1,0 +1,88 @@
+x-backend: &backend
+  build: ./backend
+  image: holywater-backend
+  profiles: ["app"]
+  env_file: .env
+  environment:
+    POSTGRES_HOST: db
+    POSTGRES_PORT: "5432"
+    REDIS_URL: redis://redis:6379/0
+    RUNS_DIR: /data/runs
+    EXAMPLES_DIR: /examples
+  volumes:
+    - ./runs:/data/runs
+    - ./examples:/examples:ro
+
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: holywater_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-holywater}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-holywater}
+      POSTGRES_DB: ${POSTGRES_DB:-holywater}
+    ports:
+      - "${POSTGRES_PORT:-5434}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-holywater} -d ${POSTGRES_DB:-holywater}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: holywater_redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "${REDIS_PORT:-6380}:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  migrate:
+    <<: *backend
+    command: ["sh", "-c", "alembic upgrade head && python -m app.cli.seed_examples"]
+    depends_on:
+      db:
+        condition: service_healthy
+
+  api:
+    <<: *backend
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8010"]
+    ports:
+      - "${DOCKER_API_PORT:-8011}:8010"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+
+  worker:
+    <<: *backend
+    command: ["celery", "-A", "app.worker.celery_app", "worker", "--loglevel=info", "--pool=solo"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+
+  web:
+    build: ./frontend
+    image: holywater-web
+    profiles: ["app"]
+    ports:
+      - "${WEB_PORT:-8088}:80"
+    depends_on:
+      - api
+
+volumes:
+  pgdata:
+  redisdata:

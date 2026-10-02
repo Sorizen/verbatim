@@ -1,0 +1,33 @@
+{
+  "title": "Yesterday's Train",
+  "shots": [
+    {
+      "id": "s1",
+      "beat": "Close on the conductor's punch stopping over a trembling hand as the car lights flicker, and his eyes lock onto Tomas's face as he speaks.",
+      "duration_s": 3,
+      "line": {
+        "speaker": "c1",
+        "text": "This ticket is for yesterday's train.",
+        "emotion": "cold, controlled accusation",
+        "locked": true
+      }
+    },
+    {
+      "id": "s2",
+      "beat": "Tomas swallows and answers in a whisper while the conductor leans in and slowly taps the stamped date with the punch.",
+      "duration_s": 4,
+      "line": {
+        "speaker": "c2",
+        "text": "I was on that train. I never got off.",
+        "emotion": "panicked, whispering",
+        "locked": false
+      }
+    },
+    {
+      "id": "s3",
+      "beat": "Tomas slowly turns his head to the dark window, and the glass shows only the conductor's reflection behind an empty seat, his reflected eyes staring straight at Tomas.",
+      "duration_s": 6,
+      "line": null
+    }
+  ]
+}

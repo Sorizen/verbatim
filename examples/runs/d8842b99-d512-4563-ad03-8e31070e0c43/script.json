@@ -1,0 +1,44 @@
+{
+  "title": "The Hat",
+  "shots": [
+    {
+      "id": "s1",
+      "beat": "Saloon doors slam open, the piano dies and a raised glass freezes mid-air, then swaggering Jack stops behind the huge, motionless Amos and delivers his insult into the silence.",
+      "duration_s": 5,
+      "line": {
+        "speaker": "c1",
+        "text": "Nice hat, big man. Did your mother pick it out?",
+        "emotion": "smug, mocking",
+        "locked": true
+      }
+    },
+    {
+      "id": "s2",
+      "beat": "Amos slowly sets his hand flat on the bar, turns his head just enough to show one cold eye, and answers in a low voice.",
+      "duration_s": 4,
+      "line": {
+        "speaker": "c2",
+        "text": "My mother stitched it. Right before she died.",
+        "emotion": "quiet, dangerous",
+        "locked": false
+      }
+    },
+    {
+      "id": "s3",
+      "beat": "Jack's smirk falters and his hand edges toward his gun belt as one patron slips out of frame, then the whole room clears while Amos rises to his full height and closes the distance.",
+      "duration_s": 4,
+      "line": {
+        "speaker": "c1",
+        "text": "Easy, friend. It was only a joke.",
+        "emotion": "forced bravado, nervous",
+        "locked": false
+      }
+    },
+    {
+      "id": "s4",
+      "beat": "Amos's fist swings into Jack's jaw as a chair scrapes in the background and a patron's hand drops toward his holster.",
+      "duration_s": 2,
+      "line": null
+    }
+  ]
+}

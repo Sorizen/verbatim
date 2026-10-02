@@ -1,0 +1,53 @@
+@use '@/styles/functions' as *;
+@use '@/styles/breakpoints' as bp;
+
+$rail-slots: 6;
+
+.recent-runs {
+  display: flex;
+  flex-direction: column;
+  gap: toRem(14);
+  min-width: 0;
+
+  @media (min-width: bp.$desktop) {
+    --rail-gap: #{toRem(8)};
+    --frame-height: calc((var(--monitor-height) - #{$rail-slots - 1} * var(--rail-gap)) / #{$rail-slots});
+
+    display: grid;
+    grid-template-areas: 'list title';
+    grid-template-columns: auto auto;
+    align-items: start;
+    gap: toRem(10);
+  }
+}
+
+.recent-runs__title {
+  margin: 0;
+  color: var(--color-ink);
+  font-size: toRem(20);
+  font-weight: 700;
+
+  @media (min-width: bp.$desktop) {
+    grid-area: title;
+    color: var(--color-ink-muted);
+    font-size: toRem(14);
+    font-weight: 600;
+    writing-mode: vertical-rl;
+  }
+}
+
+.recent-runs__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, toRem(260)), 1fr));
+  gap: toRem(4) toRem(24);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media (min-width: bp.$desktop) {
+    grid-area: list;
+    grid-template-columns: auto;
+    grid-auto-rows: var(--frame-height);
+    gap: var(--rail-gap);
+  }
+}

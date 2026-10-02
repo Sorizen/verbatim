@@ -1,0 +1,53 @@
+{
+  "round": 1,
+  "checks": [
+    {
+      "character_id": "c1",
+      "attempt": 1,
+      "portrait_path": "refs/c1-1.jpg",
+      "review": {
+        "scores": {
+          "description_match": 4,
+          "single_subject": 4,
+          "adult": 4,
+          "clean_frame": 4,
+          "face_integrity": 4,
+          "reference_quality": 4
+        },
+        "explanations": {
+          "description_match": "The clothing, facial features, scar, and general appearance align well with the provided prompt.",
+          "single_subject": "A single person is present in the frame with no background individuals.",
+          "adult": "The subject appears clearly as an adult in his thirties.",
+          "clean_frame": "The image is devoid of text, logos, or visible borders.",
+          "face_integrity": "Facial structure and anatomy are intact with no noticeable artifacts.",
+          "reference_quality": "The subject's face is sharp, centered, and sufficiently clear for reference use."
+        }
+      },
+      "verdict": "pass"
+    },
+    {
+      "character_id": "c2",
+      "attempt": 1,
+      "portrait_path": "refs/c2-1.jpg",
+      "review": {
+        "scores": {
+          "description_match": 4,
+          "single_subject": 4,
+          "adult": 4,
+          "clean_frame": 4,
+          "face_integrity": 4,
+          "reference_quality": 4
+        },
+        "explanations": {
+          "description_match": "The clothing, hat with stitched repairs, facial features, age, and tied hair align closely with the description.",
+          "single_subject": "A single person is present in the frame with no secondary figures.",
+          "adult": "The subject appears clearly as a mature adult man in his 40s.",
+          "clean_frame": "The image is free from text, watermarks, graphics, or borders.",
+          "face_integrity": "Facial features, skin texture, and proportions are realistic without visible generation artifacts.",
+          "reference_quality": "The lighting is balanced, the focus is sharp, and the face is prominent and unobstructed."
+        }
+      },
+      "verdict": "pass"
+    }
+  ]
+}

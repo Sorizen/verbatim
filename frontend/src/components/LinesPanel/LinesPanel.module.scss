@@ -1,0 +1,28 @@
+@use '@/styles/functions' as *;
+
+.lines-panel {
+  display: flex;
+  flex-direction: column;
+  gap: toRem(14);
+}
+
+.lines-panel__title {
+  margin: 0;
+  color: var(--color-ink);
+  font-size: toRem(20);
+  font-weight: 700;
+}
+
+.lines-panel__list {
+  display: flex;
+  flex-direction: column;
+  gap: toRem(12);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lines-panel__empty {
+  margin: 0;
+  color: var(--color-ink-muted);
+}

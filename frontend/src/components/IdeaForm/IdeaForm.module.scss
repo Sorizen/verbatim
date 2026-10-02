@@ -1,0 +1,107 @@
+@use '@/styles/functions' as *;
+@use '@/styles/breakpoints' as bp;
+
+.idea-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: toRem(12);
+  padding: toRem(32) toRem(28) toRem(28);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow:
+    inset 0 0 0 1px var(--color-lip),
+    inset 0 1px 0 var(--color-lip-strong);
+
+  @media (min-width: bp.$desktop) {
+    padding: toRem(40) toRem(120) toRem(36) toRem(40);
+  }
+}
+
+.idea-form__label {
+  font-family: var(--font-script);
+  font-size: toRem(15);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.idea-form__hint {
+  margin: 0;
+  max-width: 60ch;
+  color: var(--color-ink-muted);
+  font-size: toRem(15);
+}
+
+.idea-form__field {
+  width: 100%;
+  min-height: toRem(190);
+  padding: toRem(18) toRem(20);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-deep);
+  box-shadow: inset 0 0 0 1px var(--color-lip);
+  color: var(--color-ink);
+  font-family: var(--font-script);
+  font-size: toRem(18);
+  line-height: 1.6;
+  resize: vertical;
+  transition: box-shadow 160ms var(--ease-out);
+
+  &::placeholder {
+    color: var(--color-ink-faint);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 0 1px var(--color-accent);
+  }
+
+  @media (min-width: bp.$desktop) and (max-height: 660px) {
+    height: toRem(130);
+    min-height: toRem(130);
+  }
+}
+
+.idea-form__footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: toRem(16);
+  margin-top: toRem(6);
+}
+
+.idea-form__counter {
+  color: var(--color-ink-muted);
+  font-size: toRem(14);
+  font-variant-numeric: tabular-nums;
+}
+
+.idea-form__submit {
+  padding: toRem(14) toRem(26);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  font-family: var(--font-ui);
+  font-size: toRem(16);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 160ms var(--ease-out);
+
+  &:hover {
+    background: var(--color-accent-strong);
+  }
+
+  &:disabled {
+    background: var(--color-surface-exposed);
+    color: var(--color-ink-faint);
+    cursor: not-allowed;
+  }
+}
+
+.idea-form__error {
+  margin: 0;
+  color: var(--color-bad);
+  font-size: toRem(15);
+}

@@ -1,0 +1,5 @@
+LLM_MODEL = 'anthropic/claude-sonnet-5.5'
+IMAGE_MODEL = 'google/gemini-3.1-flash-image'
+VIDEO_MODEL = 'alibaba/wan-3.0'
+SPEECH_MODEL = 'openai/whisper-large-v3'
+JUDGE_MODEL = 'google/gemini-3.8-flash'

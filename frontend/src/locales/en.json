@@ -1,0 +1,92 @@
+{
+  "app": {
+    "name": "Verbatim",
+    "tagline": "A loose idea in, a vertical scene out, every line spoken word for word",
+    "new-scene": "New scene"
+  },
+  "idea": {
+    "label": "Your idea",
+    "hint": "One to three sentences. Anything you put in double quotes is spoken exactly as written.",
+    "placeholder": "A man walks into a saloon and mocks a big guy: \"Nice hat, big man. Did your mother pick it out?\" The big guy answers, and a fight starts.",
+    "submit": "Shoot the scene",
+    "submitting": "Sending it to the crew",
+    "locked-title": "Spoken exactly as written",
+    "counter": "{{count}} of {{max}}",
+    "too-short": "At least {{min}} characters",
+    "error": "The scene did not start: {{message}}"
+  },
+  "monitor": {
+    "empty": "Your scene plays here",
+    "take": "Take {{number}}",
+    "queued": "Waiting for the crew",
+    "failed": "This scene stopped",
+    "label": "Scene monitor"
+  },
+  "step": {
+    "brief": "Brief",
+    "script": "Script",
+    "script_check": "Script check",
+    "cast": "Casting",
+    "portraits": "Portraits",
+    "portrait_check": "Portrait check",
+    "scene": "Staging",
+    "render": "Shooting",
+    "scene_check": "Speech check",
+    "shot_fix": "Shot rebuild",
+    "final": "Final cut"
+  },
+  "status": {
+    "queued": "Queued",
+    "running": "In production",
+    "done": "Done",
+    "needs_review": "Waiting for your call",
+    "failed": "Stopped",
+    "accepted": "Done, accepted after your review"
+  },
+  "frame": {
+    "ok": "passed",
+    "rejected": "sent back",
+    "failed": "failed",
+    "running": "working",
+    "pending": "next",
+    "attempt": "#{{attempt}}",
+    "strip-label": "Production steps"
+  },
+  "lines": {
+    "title": "Lines",
+    "heard": "Heard in take {{attempt}}",
+    "not-checked": "Not checked yet",
+    "locked": "from your idea",
+    "speaker-ok": "said by {{name}}",
+    "speaker-bad": "not said by {{name}}",
+    "word-perfect": "word for word",
+    "mismatches_one": "{{count}} word off",
+    "mismatches_other": "{{count}} words off",
+    "empty": "The script is still being written"
+  },
+  "review": {
+    "title": "Your call",
+    "accept": "Accept this take",
+    "reject": "Reject",
+    "sending": "Sending"
+  },
+  "recovery": {
+    "title": "Why it stopped",
+    "continue": "Continue",
+    "continue-from": "Continue from {{step}}",
+    "start-over": "Start over",
+    "sending": "Sending",
+    "error": "That did not go through: {{message}}"
+  },
+  "runs": {
+    "title": "Recent scenes"
+  },
+  "meta": {
+    "cost": "Spent ${{cost}}",
+    "step": "{{step}}, take {{attempt}}"
+  },
+  "errors": {
+    "load": "The scene could not be loaded",
+    "missing": "There is no scene with this link"
+  }
+}

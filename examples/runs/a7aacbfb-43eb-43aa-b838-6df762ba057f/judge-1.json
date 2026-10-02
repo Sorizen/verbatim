@@ -1,0 +1,140 @@
+{
+  "attempt": 1,
+  "format": {
+    "aspect_ok": true,
+    "duration_s": 13.03,
+    "duration_ok": true,
+    "has_audio": true
+  },
+  "asr_model": "openai/whisper-large-v3",
+  "lines": [
+    {
+      "shot_id": "s1",
+      "speaker": "c1",
+      "expected": "This ticket is for yesterday's train.",
+      "heard": "this ticket is for yesterday's train",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "this",
+          "heard": "this"
+        },
+        {
+          "op": null,
+          "expected": "ticket",
+          "heard": "ticket"
+        },
+        {
+          "op": null,
+          "expected": "is",
+          "heard": "is"
+        },
+        {
+          "op": null,
+          "expected": "for",
+          "heard": "for"
+        },
+        {
+          "op": null,
+          "expected": "yesterday's",
+          "heard": "yesterday's"
+        },
+        {
+          "op": null,
+          "expected": "train",
+          "heard": "train"
+        }
+      ],
+      "start_s": 0.0,
+      "end_s": 4.38,
+      "speaker_matches": true,
+      "speaker_visibility": "on_screen"
+    },
+    {
+      "shot_id": "s2",
+      "speaker": "c2",
+      "expected": "I was on that train. I never got off.",
+      "heard": "i was on that train i never got off",
+      "wer": 0.0,
+      "diff": [],
+      "alignment": [
+        {
+          "op": null,
+          "expected": "i",
+          "heard": "i"
+        },
+        {
+          "op": null,
+          "expected": "was",
+          "heard": "was"
+        },
+        {
+          "op": null,
+          "expected": "on",
+          "heard": "on"
+        },
+        {
+          "op": null,
+          "expected": "that",
+          "heard": "that"
+        },
+        {
+          "op": null,
+          "expected": "train",
+          "heard": "train"
+        },
+        {
+          "op": null,
+          "expected": "i",
+          "heard": "i"
+        },
+        {
+          "op": null,
+          "expected": "never",
+          "heard": "never"
+        },
+        {
+          "op": null,
+          "expected": "got",
+          "heard": "got"
+        },
+        {
+          "op": null,
+          "expected": "off",
+          "heard": "off"
+        }
+      ],
+      "start_s": 5.62,
+      "end_s": 8.78,
+      "speaker_matches": true,
+      "speaker_visibility": "on_screen"
+    }
+  ],
+  "judgment": {
+    "physics_integrity": 7,
+    "temporal_continuity": 7,
+    "reaction_plausibility": 7,
+    "character_presence_consistency": 10,
+    "on_screen_text": false,
+    "artifacts": [
+      "hands"
+    ],
+    "speakers": [
+      {
+        "shot_id": "s1",
+        "visibility": "on_screen"
+      },
+      {
+        "shot_id": "s2",
+        "visibility": "on_screen"
+      }
+    ],
+    "analysis": "The visual style and character designs faithfully reflect the prompt references. Lip synchronization matches dialogue smoothly in both shots, with minor physical inconsistencies observed around the fingers holding the ticket."
+  },
+  "verdict": "pass",
+  "reasons": [],
+  "mismatched_words": 0,
+  "ignored_speech": []
+}

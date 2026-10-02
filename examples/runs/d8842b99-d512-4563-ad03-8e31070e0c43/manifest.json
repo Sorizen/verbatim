@@ -1,0 +1,16 @@
+{
+  "run_id": "d8842b99-d512-4563-ad03-8e31070e0c43",
+  "idea": "A man walks into a saloon and mocks a big guy: \"Nice hat, big man. Did your mother pick it out?\" The big guy answers, and a fight starts.",
+  "status": "needs_review",
+  "final_path": "final.mp4",
+  "best_attempt": 1,
+  "models": {
+    "llm": "anthropic/claude-sonnet-5.5",
+    "images": "google/gemini-3.1-flash-image",
+    "video": "alibaba/wan-3.0",
+    "speech": "openai/whisper-large-v3",
+    "judge": "google/gemini-3.8-flash"
+  },
+  "cost_usd": 2.4201,
+  "review_reason": "No take passed the check. The best is take 1: s1: c1 is not the visible speaker"
+}

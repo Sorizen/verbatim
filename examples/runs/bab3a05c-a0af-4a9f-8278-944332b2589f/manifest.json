@@ -1,0 +1,16 @@
+{
+  "run_id": "bab3a05c-a0af-4a9f-8278-944332b2589f",
+  "idea": "In a quiet greenhouse aboard a space station, an old botanist stops a nervous new crew member from touching a single glowing flower: \"Don't touch it. It's the last living thing from Earth.\" As he steps back, the flower slowly turns toward him.",
+  "status": "done",
+  "final_path": "final.mp4",
+  "best_attempt": 2,
+  "models": {
+    "llm": "anthropic/claude-sonnet-5.5",
+    "images": "google/gemini-3.1-flash-image",
+    "video": "alibaba/wan-3.0",
+    "speech": "openai/whisper-large-v3",
+    "judge": "google/gemini-3.8-flash"
+  },
+  "cost_usd": 5.0773,
+  "review_reason": null
+}

@@ -1,0 +1,26 @@
+{
+  "revision": 1,
+  "verdict": "pass",
+  "rule_violations": [],
+  "review": {
+    "hook": {
+      "score": 7,
+      "reason": "The first shot opens on a trembling hand reaching for a glowing flower while Elias lunges in with an urgent line. The conflict is clear, the stakes are stated at once, and the movement gives it momentum. It is solid and holds attention, but the stakes come from the line rather than from anything unexpected on screen.",
+      "improvements": [
+        "Add one unsettling visual cue in the first second of s1, such as the flower's glow flaring as Noor's fingers get close, so the danger feels physical before Elias speaks and the lunge lands harder."
+      ]
+    },
+    "escalation": {
+      "score": 8,
+      "reason": "Pressure rises in clear steps. Elias commands, Noor answers defiantly with an eerie claim that the flower is calling her, and Elias's anger turns to dread. The flower then turns away from him and toward her, which reverses the power dynamic: the guardian loses authority and the intruder is chosen. Noor's line adds mystery rather than repeating the first, and the silent shots pay it off.",
+      "improvements": []
+    },
+    "ending": {
+      "score": 7,
+      "reason": "The last shot ends on the flower turning toward Noor, its light brightening on her stunned face. This supports Noor's earlier line and raises a clear question about why it chose her and what Elias fears. The hook is clear, but the threat is still abstract because the shot closes on a reaction and does not set up a concrete next step.",
+      "improvements": [
+        "Add a concrete final beat in s4, such as Noor's hand lifting toward the bloom on its own while Elias freezes, so the audience anticipates a specific consequence instead of only a mood."
+      ]
+    }
+  }
+}

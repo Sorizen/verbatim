@@ -1,0 +1,80 @@
+@use '@/styles/functions' as *;
+
+.line-report {
+  display: flex;
+  flex-direction: column;
+  gap: toRem(8);
+  padding: toRem(20) toRem(22);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: inset 0 0 0 1px var(--color-lip);
+}
+
+.line-report__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: toRem(12);
+  margin: 0;
+}
+
+.line-report__speaker {
+  color: var(--color-ink);
+  font-family: var(--font-script);
+  font-size: toRem(15);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.line-report__locked {
+  color: var(--color-accent);
+  font-size: toRem(13);
+}
+
+.line-report__text {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-script);
+  font-size: toRem(19);
+  line-height: 1.55;
+}
+
+.line-report__verdict {
+  display: flex;
+  flex-direction: column;
+  gap: toRem(6);
+  margin-top: toRem(6);
+  padding: toRem(12) toRem(14);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-deep);
+}
+
+.line-report__heard-label {
+  margin: 0;
+  color: var(--color-ink-faint);
+  font-size: toRem(13);
+}
+
+.line-report__summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: toRem(16);
+  margin: toRem(2) 0 0;
+  font-size: toRem(14);
+}
+
+.line-report__mark {
+  &--ok {
+    color: var(--color-ok);
+  }
+
+  &--bad {
+    color: var(--color-bad);
+  }
+}
+
+.line-report__pending {
+  margin: 0;
+  color: var(--color-ink-muted);
+  font-size: toRem(14);
+}

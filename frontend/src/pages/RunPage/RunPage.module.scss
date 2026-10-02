@@ -1,0 +1,71 @@
+@use '@/styles/functions' as *;
+@use '@/styles/breakpoints' as bp;
+
+.run-page {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: toRem(20) var(--gutter) toRem(64);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: toRem(28);
+
+  @media (min-width: bp.$desktop) {
+    grid-template-columns: toRem(300) minmax(0, 1fr);
+    gap: toRem(48);
+    align-items: start;
+  }
+}
+
+.run-page__monitor {
+  width: min(100%, toRem(300));
+  justify-self: center;
+
+  @media (min-width: bp.$desktop) {
+    position: sticky;
+    top: toRem(24);
+  }
+}
+
+.run-page__body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: toRem(22);
+}
+
+.run-page__idea {
+  margin: 0;
+  max-width: 64ch;
+  color: var(--color-ink);
+  font-family: var(--font-script);
+  font-size: toRem(19);
+  line-height: 1.6;
+}
+
+.run-page__status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: toRem(18);
+  margin: 0;
+  color: var(--color-accent-strong);
+  font-size: toRem(16);
+  font-weight: 600;
+}
+
+.run-page__cost {
+  color: var(--color-ink-faint);
+  font-size: toRem(14);
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+.run-page__error {
+  margin: 0;
+  padding: toRem(16) toRem(20);
+  border-radius: var(--radius-md);
+  background: var(--color-frame-failed);
+  color: var(--color-bad);
+  font-size: toRem(15);
+}
